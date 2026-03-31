@@ -1,0 +1,162 @@
+{
+  "cluster_0": {
+    "size": 30,
+    "top_terms": [
+      "hear",
+      "come",
+      "news",
+      "tv",
+      "does",
+      "people",
+      "tell",
+      "want",
+      "christians",
+      "tweet"
+    ],
+    "examples": [
+      {
+        "text": "could this be one of the worst weeks ever i am thinking yeah",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "reading vanishing grace answer this when have you felt loved is love the 1st word that comes to mind when you think of christians",
+        "true": 1,
+        "pred": 2
+      },
+      {
+        "text": "did you hear hollywood news twilight spiderman comic con video hollywood news hollywood tweet me today",
+        "true": 1,
+        "pred": 0
+      }
+    ]
+  },
+  "cluster_1": {
+    "size": 4,
+    "top_terms": [
+      "tomorrow",
+      "dollar",
+      "church",
+      "day",
+      "haha",
+      "thing",
+      "eric",
+      "going",
+      "night",
+      "opening"
+    ],
+    "examples": [
+      {
+        "text": "pancakes for a dollar tomorrow at ihop you re welcome",
+        "true": 2,
+        "pred": 0
+      },
+      {
+        "text": "busy prepping for zane s pi day tomorrow pie all day long also thinking about sheep but that s to do with the lesson for church tomorrow",
+        "true": 1,
+        "pred": 0
+      },
+      {
+        "text": "can you believe tomorrow is opening night who s going to see eric church ascend",
+        "true": 2,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_2": {
+    "size": 18,
+    "top_terms": [
+      "br",
+      "league",
+      "good",
+      "product",
+      "got",
+      "movie",
+      "hopefully",
+      "twitter",
+      "book",
+      "represented"
+    ],
+    "examples": [
+      {
+        "text": "please spare me of these movies that teach us that crime is fun and justified couple that with a vacuous script with an intense desire to be a farrelly or a coen brother plus the lives of yet another group of supposedly high school age people acting out their dawson creek brand teen angst complete with a genxyz soundtrack that woefully tries to make the movie feel cool and we have intensely and painfully inept satire br br this isn t even watered down ferris bueller i d rather watch a traffic light change br br only one scene stands out as anywhere near worth the price of admission when the betty masked girls meet a richard nixon masked friend it s a surreal moment priceless even br br but for the rest of it i d rather have a toothache at least i can apply some benzocaine tm to stop the pain",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "there isn t much in the way of spoilers since there isn t a plot to reveal but still i guess i describe some of what happens so this is it this is the most nonsensical film i ve ever seen there are simply no words to describe this movie although bizarre ridiculous and ego trip are pretty close the opening half hour or so are really really weird music videos with absolutely no plot or continuity apart from that mj falls into some from the previous one of the highlights of this part of the film in the section where mj is flying a merry go round aeroplane through what seem to be half arsed bond intro rejects and sections cut from yellow submarine dear lord you could not make this up br br then with a little over an hour remaining the film begins with a lot of claymation some of it really creepy spotting our hero and chasing him looking for an autograph obviously this leaves our as of yet mute discounting songs lead somewhat worried and he manages to temporarily lose them fortunate for him because it means he can witness a falling star and and again i m not making this up turn into a claymation rabbit he uses this cunning disguise to try and sneak past them but for reasons i can t recall right now they see through it oh no and the creepy chase begins again cue another song big shock there br br shortly after the end of the chase mj somehow brings the rabbit to life until he is busted by a policeman in the middle of the desert because it is apparently illegal to dance there br br the rest of the film is equally as strange highlights including mj cleaning up a bar to the tune of smooth criminal including shooting a man with his finger not only killing the guy but burning his shadow into the wall a la nuclear fission weapons another good moment is when mj seeing mr big joe what the hell happened to his career at this point peschi kidnap one of the children he was friends with magically creates a tommy gun and in another moment of violence that pepper this film seemingly at random opens fire at everything that moves a final moment i shall mention is when mj surrounded by mr big and his private army seriously this guy has dozens of people working for him and they re decked out more like commando units rather than mobsters which i guess they are how does he get out why he turns into a robot complete with weapons and shield this is the third of four transformations he makes almost always when backed into a corner and or on the run br br this film is quite quite surreal with little in the way of plot and virtually no continuity",
+        "true": 2,
+        "pred": 0
+      },
+      {
+        "text": "optajoe 1 norwich city have now become the 20th and final team of this premier league season to score a goal from",
+        "true": 1,
+        "pred": 0
+      }
+    ]
+  },
+  "cluster_3": {
+    "size": 11,
+    "top_terms": [
+      "friday",
+      "book",
+      "like",
+      "problem",
+      "nice",
+      "set",
+      "streaming",
+      "friend",
+      "case",
+      "way"
+    ],
+    "examples": [
+      {
+        "text": "truly i wanted to read this book i tend toward more non fiction and had asked my manager at work for a recommendation she passed along this book i found it difficult to get into though i did like some of the characterizations ie fall leaving and slamming the door on the way out it just overall seemed like her writing wasn t very well integrated in terms of the style s of writing in the book and the uneven development of characters i found the way the characters spoke to be distractingly unnatural and found found the oblique physical descriptions of people explicit for some characters almost soft porn and very vague for others difficult to hook into the drama and the sub plots just not all worked out very well and in the end not that interesting i forced myself to finish it in the hopes it would improve not sure i would bother with another of her books",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "i never had a issue with anything that i have ordered through amazon but i order a new book i received a used book i would like to return this book and get a new one could you please tell me if a new book is available before i return this book",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "who wants to be a total babe and get donuts with me every friday morning from dunkin",
+        "true": 1,
+        "pred": 0
+      }
+    ]
+  },
+  "cluster_4": {
+    "size": 17,
+    "top_terms": [
+      "user",
+      "u002c",
+      "time",
+      "finally",
+      "monday",
+      "just",
+      "going",
+      "seeing",
+      "sunday",
+      "13th"
+    ],
+    "examples": [
+      {
+        "text": "this is the 1st user tour that i ve had madonna tattoos for wonder why it was rebelheart to make this happen rebelhearttour",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "finally done with my 4th period hw time to watch naruto",
+        "true": 2,
+        "pred": 0
+      },
+      {
+        "text": "i have had a new wave filter to remove chlorine on my shower for 1 year i just purchased a new wave replacement cartridge for my 2nd year of use i love that they remind you that it is time to replace the cartridge i feel i am doing something good for my family with a minimum amount of money it s worth it",
+        "true": 2,
+        "pred": 0
+      }
+    ]
+  }
+}

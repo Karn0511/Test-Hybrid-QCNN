@@ -1,0 +1,6 @@
+{
+  "include": ["backend", "scripts"],
+  "extraPaths": ["."],
+  "venvPath": ".",
+  "reportMissingImports": "warning"
+}

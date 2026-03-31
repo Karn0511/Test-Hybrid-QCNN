@@ -1,0 +1,162 @@
+{
+  "cluster_0": {
+    "size": 5,
+    "top_terms": [
+      "big",
+      "screen",
+      "doll",
+      "just",
+      "goals",
+      "essendon",
+      "poor",
+      "gon",
+      "drake",
+      "drizzy"
+    ],
+    "examples": [
+      {
+        "text": "the scenes where calogero runs are just sad to me the poor guy has obviously never been a normal kid he looks ridiculous this is why the fonz never ran on happy days",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "i was looking for a doll that wets to help me potty train my 3 year old daughter the doll was quite expensive the only one with the feature i was looking for in that particular toy store it comes without any instructions or maybe they were missing from the box but i really doubt that when you give the doll water it instantly starts peeing better when it is laying down than when it sits on the potty no matter how you turn it and how you close or open the valve it leaks i could not see any tears no matter how i turned it overall big waste of money i would strongly recommend against it it makes a big title of glory that doesn t need batteries but it absolutely does not rise to the expectations listed on the box and i would personally get a battery doll that works than this one",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "ttaasshhaa essendon lost by 2 goals scores just came on the big screen here",
+        "true": 0,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_1": {
+    "size": 12,
+    "top_terms": [
+      "br",
+      "movie",
+      "watch",
+      "star",
+      "just",
+      "ghost",
+      "album",
+      "want",
+      "wars",
+      "late"
+    ],
+    "examples": [
+      {
+        "text": "ok so this is coming a few weeks late but it is here mostly this is because of statements of various negative natures starting with the technology when star trek tos ran special effect technology was extreamely low tec and more than that the crew had little money to do any kind of proper mock ups in the 35 years seince tos premiered the crew of star trek have become experts at economy br br ultimately they have decided quite rightly in my mind to abandon the look of tos and reverse engineered tng et all so what if they decided not to make the transporter out of gold glitter or made the phase pistols look closer to the ones from star trek ii as for the nits being picked about first contact with the klingon empire it was presumed based upon comments made by kirk and riker that earth only met the klingon s in 2200 nothing was firmly established br br enterprise gives us the most promising venue of exploration that we ve seen in a while this is what voyager could have been no series can evolve without a few inconsistancies but be thankful that star trek has so few so quit gripping and enjoy",
+        "true": 2,
+        "pred": 0
+      },
+      {
+        "text": "ghost of mississippi the story of the ghost that tripped eli manning on 4th down that fateful autumn night in oxford 30for30",
+        "true": 1,
+        "pred": 2
+      },
+      {
+        "text": "let me start out by saying i can enjoy just about any bad italian horror movie or jungle exploitation flick from the 1970 s seriously this one was downright awful br br there are way too many elements that martino tries to inject and none of them work except for the croc gone wild thing very well at all there are some ignorant westerners of course who set up a resort in the jungle somewhere i don t even remember where it takes place how sad is that basically people come to the resort to see this native tribe and its ceremonies but eventually they upset the alligator god of the river who then proceeds to go on a rampage killing said vacationers and some tribesmen as well sounds good yeah well don t get your hopes up there is minimal violence until the end the special effects are so bad it was like a kindergarten class performed them and the love story thrown in is laughable br br there is seriously a few scenes where it appears they set up a camera underwater in a pool and threw a toy alligator like a dart into the water and that is supposed to be the gator attacking i m not kidding in another wonderfully crafted special effect a matchbox van is targeted by the incredible sinking plastic gator who all of a sudden is five times the size of a van a few minutes ago he was only big enough to eat a human but now he dwarfs a full size cargo van it is really pathetic the only other flick i can think of where the effects were so bad i was pulled out of the story was bruno mattei s masterpiece rats what with the plastic rats on the conveyor belt and all who couldn t be terrified br br normally i d say anything sergio martino was a solid must see but this one is a must pass waste of time and definitely not worth buying for the 15 sticker price from no shame this one is a shame br br 2 out of 10 kids",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_2": {
+    "size": 14,
+    "top_terms": [
+      "user",
+      "come",
+      "movie",
+      "watch",
+      "8th",
+      "excited",
+      "milan",
+      "good",
+      "room",
+      "u002c"
+    ],
+    "examples": [
+      {
+        "text": "you should come watch the devil inside in the movie room on the 1st floor user",
+        "true": 1,
+        "pred": 0
+      },
+      {
+        "text": "user the club is an absolute joke the once great milan is now a provincial side 8th if we are lucky",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "user i admire you with all my heart u002c lauren may the god u002c that watches over the rest of the world u002c bless you and keep you x",
+        "true": 2,
+        "pred": 0
+      }
+    ]
+  },
+  "cluster_3": {
+    "size": 32,
+    "top_terms": [
+      "book",
+      "day",
+      "end",
+      "gonna",
+      "today",
+      "going",
+      "free",
+      "friday",
+      "misha",
+      "far"
+    ],
+    "examples": [
+      {
+        "text": "learning that u s federal and intra state railways don\u00ef 1 2t integrate their travel planners and don\u00ef 1 2t give their schedule data to google",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "mr paolini i know this is your debut novel but it s exremely boring half of the book is eragon and his dragon saphira talking through their minds about the most boring stuff on earth i was about 3 or 4 hundred pages into the book and i quit i was falling asleep for heaven s sake that s really all i have to say about that your critic heck no i m not a fan",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "what women want was a smash hit when it was released but this romantic comedy is unfunny and way too long mel gibson gives another solid performance but i just couldn t relate to this film and i am a woman helen hunt was so over rated when this film was making millions of dollars at the box office but jeez you never hear anything about her anymore her ship has sailed this is a movie you rent or borrow from a friend not worth purchasing",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_4": {
+    "size": 6,
+    "top_terms": [
+      "know",
+      "work",
+      "doesnt",
+      "lol",
+      "new",
+      "set",
+      "important",
+      "degrasse",
+      "evening",
+      "guidance"
+    ],
+    "examples": [
+      {
+        "text": "can t believe spencerpratt told twitter his number i tried calling sadly but it didn t work because i live in england",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "oracle guidance aug 13 2015 if you know what you want then it s time for you to push yourself to the limi",
+        "true": 1,
+        "pred": 0
+      },
+      {
+        "text": "sunday evening uplift neil degrasse tyson on the most important thing to know about the universe",
+        "true": 2,
+        "pred": 1
+      }
+    ]
+  }
+}

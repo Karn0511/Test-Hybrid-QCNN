@@ -1,0 +1,9 @@
+id: E3
+name: Reduced QCNN
+use_qcnn: true
+layers: 2
+projection: true
+n_qubits: 8
+epochs: 5
+batch_size: 16
+learning_rate: 0.001

@@ -1,0 +1,100 @@
+{
+    "config": {
+        "id": "STAGE_4_zero_shot_transfer",
+        "language": "zero_shot_transfer",
+        "use_qcnn": true,
+        "qcnn_depth": 2,
+        "projection": true,
+        "epochs": 1,
+        "batch_size": 256,
+        "max_rows": 1000,
+        "class_weights": [
+            1.0482180293501049,
+            0.949667616334283,
+            1.0070493454179255
+        ]
+    },
+    "metrics_summary": {
+        "accuracy": {
+            "mean": 0.3179190751445087,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 0.10107253834073975,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.3179190751445087,
+            "std": 0.0
+        },
+        "f1-score": {
+            "mean": 0.15338200993814016,
+            "std": 0.0
+        },
+        "roc_auc": {
+            "mean": 0.4577810236288612,
+            "std": 0.0
+        },
+        "ece": {
+            "mean": 0.1391527119571763,
+            "std": 0.0
+        },
+        "brier_score": {
+            "mean": 0.7082353322638624,
+            "std": 0.0
+        },
+        "per_language_breakdown": {
+            "bhojpuri": {
+                "accuracy": 0.3170731707317073,
+                "f1_macro": 0.16049382716049382,
+                "confusion_matrix": [
+                    [
+                        65,
+                        0,
+                        0
+                    ],
+                    [
+                        71,
+                        0,
+                        0
+                    ],
+                    [
+                        69,
+                        0,
+                        0
+                    ]
+                ]
+            },
+            "maithili": {
+                "accuracy": 0.3191489361702128,
+                "f1_macro": 0.16129032258064516,
+                "confusion_matrix": [
+                    [
+                        45,
+                        0,
+                        0
+                    ],
+                    [
+                        57,
+                        0,
+                        0
+                    ],
+                    [
+                        39,
+                        0,
+                        0
+                    ]
+                ]
+            }
+        },
+        "holdout_langs": [
+            "bhojpuri",
+            "maithili"
+        ]
+    },
+    "training_time": 19.340105533599854,
+    "history": [
+        1.396528720855713
+    ],
+    "stage": "STAGE 4: GENERALIZATION"
+}

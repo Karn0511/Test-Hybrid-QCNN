@@ -1,0 +1,162 @@
+{
+  "cluster_0": {
+    "size": 10,
+    "top_terms": [
+      "br",
+      "movie",
+      "film",
+      "worst",
+      "just",
+      "plot",
+      "ve",
+      "say",
+      "documentary",
+      "sleestak"
+    ],
+    "examples": [
+      {
+        "text": "when i rented unhinged i was expecting a gore movie the box even claimed that the movie had extreme scenes of violence that were cut from the theatrical release i now have serious doubts about this being released in the theater after finishing the movie i wondered how it could even receive a video release br br the plot is as follows a group of three young women on a car trip crash their car into a tree these women somehow manage to make their way to a mansion which contains an extremely sexist woman beyond this point the movie is mainly composed of useless scenes that are intended to make the movie long enough for release br br one of the things that makes this movie awful is the acting lisa munson who plays the main character looks as though she is reading her lines off cue cards the others acting is bad but not nearly as bad as hers another thing that makes this movie bad is the camera technique many shots are taken by cameras attached to the ceiling this gets very annoying as the movie progresses on top of all that there is very little gore which makes the box very misleading br br don t waste your time on this one my rating 1 out of 10",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "who did the research for this film it s set in baghdad in 2004 however all the soldiers are wearing acus and have all universal camouflage pattern gear no one was wearing that stuff in 04 br br i just saw this film while deployed overseas and i can say that the overwhelming feeling from the audience was wtf this movie made no sense had characters come and go with no explanation and people doing ridiculous things that would never happen in real life i realize that it s a movie but it s obviously trying to portray something realistic it fails miserably but it s trying br br it s like someone came up with a bunch of random ideas chewed them up and swallowed then vomited out a film i would not recommend this film to anyone i m still not sure why i sat through the whole thing gi joe was one that really made you think compared to this stay away",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "perhaps not my genre but plot was horrible as was acting by nancy allen and linda farentino c thomas also seemed uncomfortable in role of being seduced here while on marijuana why did this need to be included this weakened plot considerably also farentino s charac would have been better had she had more respect for a relationship would does movie try to say not much",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_1": {
+    "size": 23,
+    "top_terms": [
+      "tomorrow",
+      "watch",
+      "user",
+      "grade",
+      "love",
+      "want",
+      "lol",
+      "like",
+      "diapers",
+      "got"
+    ],
+    "examples": [
+      {
+        "text": "user you guys i see you soon tomorrow omg omg yay i love you guys so much come to our malls later on today ok i want to see niall",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "dangerradio was covering britney spears at bamboozle i wish i was there",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "this friday the bootleg bee gees roadshow is off to the we love 70s weekend at butlins skegness and then on",
+        "true": 1,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_2": {
+    "size": 14,
+    "top_terms": [
+      "user",
+      "2nd",
+      "game",
+      "great",
+      "tuesday",
+      "just",
+      "look",
+      "reaction",
+      "duke",
+      "u2019m"
+    ],
+    "examples": [
+      {
+        "text": "i u2019m going to the duke game on saturday haha duke what u2019a joke they are",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "halftime does not look very good",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "so user in helsinki tonight with the revivaltour and he has a birthday sounds like a killer combination too bad its tuesday",
+        "true": 2,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_3": {
+    "size": 17,
+    "top_terms": [
+      "good",
+      "day",
+      "book",
+      "product",
+      "read",
+      "buy",
+      "fan",
+      "point",
+      "early",
+      "little"
+    ],
+    "examples": [
+      {
+        "text": "the delivered product was different from the product listed on this page the delivered product had no airplane adapter despite the product description and the linked manual stating otherwise since i bought it specifically for use on an upcoming plane trip this product is completely useless to me instead the product contains an extra cable to connect it directly to a car battery it also includes a connector for the standard cigarette lighter if you are only planning to use this product in a car or from a car battery it may work fine however if you are planning to use it on an airplane you are out of luck",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "this is made in spain and not in england you can buy the in the indian asian grocery for 6 99",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "how can anyone order a product without any info about it this cd does not give you a list of any songs or a sample to listen to i would never buy a product if i didn t know what was in it",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_4": {
+    "size": 3,
+    "top_terms": [
+      "sun",
+      "courts",
+      "hatha",
+      "yoga",
+      "herald",
+      "design",
+      "cricket",
+      "start",
+      "young",
+      "bit"
+    ],
+    "examples": [
+      {
+        "text": "hatha yoga student would do well to learn about the play of opposites represented by the sun and moon start",
+        "true": 1,
+        "pred": 0
+      },
+      {
+        "text": "clever australian captain michael clarke teams up with louis vuitton in special cricket trunk design herald sun",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "nowplaying steven wilson no twilight within the courts of the sun",
+        "true": 1,
+        "pred": 2
+      }
+    ]
+  }
+}

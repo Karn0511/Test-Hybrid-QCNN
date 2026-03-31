@@ -1,0 +1,162 @@
+{
+  "cluster_0": {
+    "size": 19,
+    "top_terms": [
+      "\u0924\u0930",
+      "\u092c\u0922",
+      "\u0905\u091b",
+      "\u0932\u092f",
+      "\u091b\u0928",
+      "\u092e\u091c\u0926",
+      "\u0939\u092e\u0930",
+      "\u091f\u0932",
+      "\u092e\u0939",
+      "\u0915\u0930"
+    ],
+    "examples": [
+      {
+        "text": "\u0924\u0901 \u0936\u094d\u0930\u093e\u0935\u0923\u092d\u0940\u0924\u0930 \u092a\u0935\u093f\u0924\u094d\u0930 \u092f\u093e\u0924\u094d\u0930\u093e \u0915\u0930\u093f\u0915\u093d \u092e\u0928 \u092a\u094d\u0930\u0938\u0928\u094d\u0928 \u092d\u093d \u0917\u0947\u0932",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "\u092d\u093e\u0908 \u0938\u0921\u093c\u0915 \u091f\u0942\u091f\u0932 \u0930\u0939\u0932\u093e\u0915 \u0915\u093e\u0930\u0923 \u0926\u0947\u0930\u0940 \u0917\u0947\u0932\u0939\u0941\u0901",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "\u092f\u094c \u0939\u092e\u0930 \u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u092e\u0947 \u0935\u093f\u091c\u094d\u091e\u093e\u0928 \u092a\u094d\u0930\u092f\u094b\u0917\u0936\u093e\u0932\u093e \u091b\u0928\u094d\u0939\u093f",
+        "true": 2,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_1": {
+    "size": 108,
+    "top_terms": [
+      "just",
+      "\u0918\u0930",
+      "love",
+      "\u0938\u093d",
+      "\u0928\u0935",
+      "got",
+      "\u092c\u0928",
+      "\u0924\u092e",
+      "\u0909\u0924",
+      "\u0932\u0939"
+    ],
+    "examples": [
+      {
+        "text": "the opening acts were straight danny got boo ed",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "\u0926\u0947\u0916\u0942 \u092c\u091a\u0924 \u0938\u093d \u0928\u0942\u0924\u0928 \u0918\u0930 \u092c\u0928\u0947\u0932\u0939\u0941\u0901",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "disappointed k 911 original good quality k 9 exist like sitcom cast original movie returned got memory back captain dooley love hit like scene old comedy show crazy deal change police seems like lapd san diego pd completely different movie",
+        "true": 0,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_2": {
+    "size": 10,
+    "top_terms": [
+      "\u0905\u0930",
+      "\u092e\u0928",
+      "\u092d\u093d",
+      "\u0932\u0917",
+      "\u090f\u0915\u0926\u092e",
+      "\u0930\u0924",
+      "\u0915\u093d",
+      "\u092a\u0922",
+      "\u092c\u0928\u0932",
+      "\u0935\u0930"
+    ],
+    "examples": [
+      {
+        "text": "\u0905\u0930\u0947 \u0905\u0938\u094d\u092a\u0924\u093e\u0932 \u092d\u0940\u0924\u0930 \u0916\u0942\u092c \u092c\u0922\u093c\u093f\u092f\u093e \u0938\u0947\u0935\u093e \u092e\u093f\u0932\u0932",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "\u0905\u0930\u0947 \u092a\u0930\u093f\u0935\u093e\u0930 \u0938\u0902\u0917\u0947 \u0930\u0939\u092c \u090f\u0915\u0926\u092e \u0928\u0940\u0915 \u0932\u0917\u0948\u0924 \u0905\u091b\u093f",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "\u0905\u0930\u0947 \u091c\u0921\u093c\u0940 \u092c\u0942\u091f\u0940\u0915 \u0915\u093e\u0922\u093c\u093e\u0938\u0901 \u092c\u0941\u0916\u093e\u0930 \u0909\u0924\u0930\u093f \u0917\u0947\u0932",
+        "true": 2,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_3": {
+    "size": 9,
+    "top_terms": [
+      "\u092a\u0930",
+      "\u0930\u092e",
+      "\u0939\u092e",
+      "\u0939\u092e\u0930",
+      "\u0938\u092d",
+      "\u091b\u0925",
+      "\u091f\u0932",
+      "\u092d\u0935",
+      "\u0938\u092e\u092f",
+      "\u0915\u093d"
+    ],
+    "examples": [
+      {
+        "text": "\u0939\u0901 \u0939\u092e\u0930\u094b \u092d\u093e\u0908 \u092c\u0921\u093c \u092a\u0930\u093f\u0936\u094d\u0930\u092e\u0940 \u091b\u0948\u0915",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "\u0926\u0947\u0916\u0942 \u0939\u092e\u0930 \u092a\u0930\u093f\u0935\u093e\u0930\u092e\u0947 \u0938\u092d \u090f\u0915 \u0926\u094b\u0938\u0930\u0915 \u0938\u0939\u092f\u094b\u0917 \u0915\u0930\u0948\u0924 \u091b\u0948\u0915",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "\u092f\u094c \u0930\u093e\u092e\u0928\u092f\u093e\u092e\u0940 \u092a\u0930\u094d\u0935\u092a\u0930 \u0917\u093e\u092e\u092e\u0947 \u092d\u0935\u094d\u092f \u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e \u092d\u0947\u0932",
+        "true": 2,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_4": {
+    "size": 14,
+    "top_terms": [
+      "work",
+      "day",
+      "tired",
+      "today",
+      "lt",
+      "miss",
+      "way",
+      "precious",
+      "finished",
+      "link"
+    ],
+    "examples": [
+      {
+        "text": "somekindoffun woooo brian i have to miss it to because of work",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "and i have to work",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "until this second i haven t finished my work yyyyyyyyet",
+        "true": 0,
+        "pred": 1
+      }
+    ]
+  }
+}

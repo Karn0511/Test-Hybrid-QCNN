@@ -1,0 +1,30 @@
+[
+  {
+    "text": "hard to work संगे बार बार प्रयास এট আছ शब्दों को पहचानना है फलहीन। अधिक निराश। विजुअल टिप्स भयानक।",
+    "predicted": 2,
+    "actual": 0,
+    "confidence": 0.7433306241458713,
+    "language": "bhojpuri"
+  },
+  {
+    "text": "i my liked সত য ই প র ন স স করণ लेकिन यह काम किया আম ক জন য এর জন য প রয জন।",
+    "predicted": 2,
+    "actual": 1,
+    "confidence": 0.46859933308486507,
+    "language": "maithili"
+  },
+  {
+    "text": "ইহ ধ রগত फिर भी मेरा कंप्यूटर is a pentium i5 3317u v 1 7ghz यह नहीं है update the reading position",
+    "predicted": 1,
+    "actual": 0,
+    "confidence": 0.7476483979394393,
+    "language": "hindi"
+  },
+  {
+    "text": "यह उत्पाद पाल वीडियो मानक के साथ संगत नहीं है। ऐसा नहीं ব ন য স এই কর র কর ড ভ ড ও ক য পচ র ব সম প দন কর ন। সফটওয য র ইন সটল কর হয a and long complicated process software is to difficult use works ok with ntsc video standard only many of the features must be purchased अलग से। जब तक आप प्रति भुगतान नहीं तब करते तक समर्थन लगभग सभी स्वचालित ঘটন র है ভ ত ত ।",
+    "predicted": 1,
+    "actual": 0,
+    "confidence": 0.4849504267506802,
+    "language": "maithili"
+  }
+]

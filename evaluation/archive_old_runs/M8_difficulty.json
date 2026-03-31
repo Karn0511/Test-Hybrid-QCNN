@@ -1,0 +1,1682 @@
+[
+  {
+    "text": "what did @gbazz do to @twitter (more likely what did @twitter do to @gbazz)",
+    "entropy": 0.07176808219616024,
+    "predicted_class": 0,
+    "confidence": 0.9881135678754037,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0928\u0926\u0940 \u0938\u092b\u093e\u0908 \u0905\u092d\u093f\u092f\u093e\u0928 \u0925\u094b\u0921\u093c\u0947 \u0938\u092b\u0932 \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.7992815148700746,
+    "predicted_class": 1,
+    "confidence": 0.5891685409060851,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@cassiusaway in my direction, and from a great height. i'm now covered in pay day poo.",
+    "entropy": 0.03955119900400915,
+    "predicted_class": 0,
+    "confidence": 0.9942204581287689,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "getting ready for my graduation party ........(id much rather be at hello marquee or dane cook)",
+    "entropy": 0.09519388100243362,
+    "predicted_class": 0,
+    "confidence": 0.9835589426107509,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "no rain expected in #perth until next sunday.",
+    "entropy": 0.12236547853953181,
+    "predicted_class": 0,
+    "confidence": 0.9773537051336098,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0905\u0938\u094d\u092a\u0924\u093e\u0932\u092e\u0947 \u0928\u0935 \u0909\u092a\u0915\u0930\u0923 \u0932\u093e\u0917\u0932 \u091b\u0948\u0915",
+    "entropy": 0.8176088386566247,
+    "predicted_class": 2,
+    "confidence": 0.5584713528580185,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "i am the birthday princess. my bday wish was to talk to @spencerpratt but didn't get through",
+    "entropy": 0.059846059306399406,
+    "predicted_class": 0,
+    "confidence": 0.9904853719313834,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0928\u0935 \u0928\u0940\u0924\u093f\u0938\u0947 \u0915\u093f\u0938\u093e\u0928\u0915\u0947\u0901 \u0938\u0940\u0927\u093e \u0932\u093e\u092d \u092d\u0947\u091f\u0932",
+    "entropy": 0.7688482199145587,
+    "predicted_class": 2,
+    "confidence": 0.604476597201782,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0917\u093e\u092e\u0918\u0930 \u092e\u0947 wifi \u0932\u093e\u0917\u0932 \u0905\u091b\u093f",
+    "entropy": 1.0833792655889178,
+    "predicted_class": 1,
+    "confidence": 0.3986416213471497,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "coming home from south carolina soon.",
+    "entropy": 0.04956102748526889,
+    "predicted_class": 0,
+    "confidence": 0.992377907078033,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0939\u0901, \u0928\u0935 \u092c\u091a\u094d\u091a\u093e\u0915 \u091c\u0928\u094d\u092e \u0938\u0947 \u0918\u0930 \u092e\u0947\u0902\u0902 \u0916\u0941\u0936\u0940 \u0905\u091b\u093f",
+    "entropy": 0.7492918322936978,
+    "predicted_class": 2,
+    "confidence": 0.6009475322846578,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@ephant -hugs-",
+    "entropy": 0.17995466391484446,
+    "predicted_class": 0,
+    "confidence": 0.9635780904899919,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092f\u094c, \u092c\u0948\u0902\u0915 \u092d\u0940\u0924\u0930 \u092a\u0948\u0938\u093e \u091c\u092e\u093e \u0915\u0930\u092c \u0905\u0928\u093f\u0935\u093e\u0930\u094d\u092f \u091b\u0925\u093f",
+    "entropy": 0.7005915937745038,
+    "predicted_class": 1,
+    "confidence": 0.6980664976409947,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u092c\u093e\u092c\u0942\u091c\u0940 \u0938\u0930\u0915\u093e\u0930\u0940 \u0928\u094c\u0915\u0930\u0940 \u0915\u0930\u0948\u0924 \u091b\u0948\u0915",
+    "entropy": 0.8284486568730218,
+    "predicted_class": 1,
+    "confidence": 0.48802549458572553,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "is headed back to ohio today",
+    "entropy": 0.05023375913567965,
+    "predicted_class": 0,
+    "confidence": 0.9922330097748084,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0911\u0928\u0932\u093e\u0907\u0928 \u0915\u093e\u092e \u0915\u0930\u0928\u093f\u0939\u093e\u0930 \u091c\u0928 \u092c\u0922\u093c\u093f \u091b\u0925\u093f \u091b\u0948\u0915",
+    "entropy": 0.6763278200768837,
+    "predicted_class": 1,
+    "confidence": 0.7617229256312607,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u092e\u0930 \u0926\u094b\u0938\u094d\u0924 \u092c\u0939\u0941\u0924 \u0907\u092e\u093e\u0928\u0926\u093e\u0930 \u091b\u0948\u0915",
+    "entropy": 0.7279172195242813,
+    "predicted_class": 1,
+    "confidence": 0.6973451028917489,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@kinagrannis kina! why no uke??",
+    "entropy": 0.21093715986046796,
+    "predicted_class": 0,
+    "confidence": 0.9539629326904489,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "lost my fucking belly bar! it just fell off fiddlesticks [new word for the week]",
+    "entropy": 0.15211291876331448,
+    "predicted_class": 0,
+    "confidence": 0.9706709343513751,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@mixedbyali thats dope..yea im bout to hit the sheets..work in the am",
+    "entropy": 0.09950645751658425,
+    "predicted_class": 0,
+    "confidence": 0.982638712733617,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0924\u0940\u0930\u094d\u0925\u092f\u093e\u0924\u094d\u0930\u093e \u092a\u0930 \u091c\u093e\u090f\u092c \u0936\u0941\u092d \u091b\u0948\u0915",
+    "entropy": 0.9116475083470863,
+    "predicted_class": 1,
+    "confidence": 0.48914028649725144,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "@samjmoody awwwwww, i love this photo, is so cute, look at him teeth hahaha little poynter is grow now baby",
+    "entropy": 0.15269256923581198,
+    "predicted_class": 0,
+    "confidence": 0.9705007217167834,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "just heard a dr who performs abortions was shot to death outside his church today. i forever believe in a womans right to choose. period.",
+    "entropy": 0.16525923898025474,
+    "predicted_class": 0,
+    "confidence": 0.9676376309867963,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u092e\u093e\u0938\u093f\u0915 \u0916\u0930\u094d\u091a \u0928\u093f\u0915\u093e\u0932\u092c \u092e\u0941\u0936\u094d\u0915\u093f\u0932 \u0939\u094b\u0907\u0924 \u0924 \u091b\u0928\u093f",
+    "entropy": 0.8049633726699799,
+    "predicted_class": 2,
+    "confidence": 0.48882962737753916,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0917\u093e\u092e \u092d\u0940\u0924\u0930 \u091f\u093e\u0935\u0930 \u0932\u093e\u0917\u0932 \u0939\u0948",
+    "entropy": 0.8511455716413001,
+    "predicted_class": 2,
+    "confidence": 0.5174874965769757,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "so tired of looking for wholesale beads and not finding what i want!",
+    "entropy": 0.139705213705792,
+    "predicted_class": 0,
+    "confidence": 0.973578187423292,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u091c\u0928\u092a\u094d\u0930\u0924\u093f\u0928\u093f\u0927\u093f\u0915 \u092a\u094d\u0930\u092f\u093e\u0938\u0938\u0947 \u0917\u093e\u092e\u092e\u0947\u0902 \u0938\u0921\u093c\u0915 \u092c\u0928\u0932",
+    "entropy": 0.7238751291293182,
+    "predicted_class": 2,
+    "confidence": 0.6564948346062697,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u092e\u094c\u0938\u092e \u0926\u0947\u0916\u093f \u0915\u093d \u0916\u0947\u0924\u0940 \u0915\u0930\u092c \u092a\u0921\u093c\u0948\u0924 \u0905\u091b\u093f",
+    "entropy": 0.7968415067074364,
+    "predicted_class": 1,
+    "confidence": 0.6217022295341201,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "i am getting into a bad mood for no reason i hate these hormones",
+    "entropy": 0.14272495289434886,
+    "predicted_class": 0,
+    "confidence": 0.9728307650365111,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@ahmedzainal i don't lik the terminator",
+    "entropy": 0.2730030259136066,
+    "predicted_class": 0,
+    "confidence": 0.9381067697682293,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@markygk sounds good to me! hopefully i'll be on my computer next time",
+    "entropy": 0.09556862058834709,
+    "predicted_class": 0,
+    "confidence": 0.9834839932832439,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0928\u094c\u0915\u0930\u0940 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092d\u0947\u0932\u093e\u0939 \u0936\u0939\u0930 \u092e\u0947\u0902",
+    "entropy": 0.8685187283238534,
+    "predicted_class": 1,
+    "confidence": 0.5237898548163884,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0924\u0901 \u092e\u094c\u0938\u092e \u0926\u0947\u0916\u093f \u0915\u093d \u0916\u0947\u0924\u0940 \u0915\u0930\u092c \u092a\u0921\u093c\u0948\u0924 \u0924 \u0924 \u091b\u0928\u093f",
+    "entropy": 0.6995132848599817,
+    "predicted_class": 1,
+    "confidence": 0.7324702738736065,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0906\u0926\u092e\u0940\u0917\u0940\u0924 \u0924\u0901 \u0938\u0941\u0928\u093f \u092e\u0928 \u0906\u0928\u0928\u094d\u0926\u093f\u0924 \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.8490703253884917,
+    "predicted_class": 2,
+    "confidence": 0.5515241937610122,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0939\u092e\u093e\u0930 \u092d\u093e\u0908 \u090f\u0915\u0926\u092e \u092a\u0930\u093f\u0936\u094d\u0930\u092e\u0940 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7082512511320904,
+    "predicted_class": 2,
+    "confidence": 0.6885681937990218,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u092a\u094b\u0916\u0930\u093f \u092e\u0947\u0902\u0902 \u0915\u0928\u0947 \u0915\u092e\u0932 \u092b\u0941\u0932\u093e\u0907\u0932 \u0905\u0905\u091b\u093f",
+    "entropy": 0.8027441514321059,
+    "predicted_class": 1,
+    "confidence": 0.5901160964864821,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0938\u092e\u093e\u091c\u092d\u0940\u0924\u0930 \u091c\u093e\u0917\u0930\u0942\u0915\u0924\u093e \u0905\u092d\u093f\u092f\u093e\u0928\u0938\u0901 \u0938\u0915\u093e\u0930\u093e\u0924\u094d\u092e\u0915 \u092c\u0926\u0932\u093e\u0935 \u090f\u0932\u093e\u0939",
+    "entropy": 0.7041377006270111,
+    "predicted_class": 2,
+    "confidence": 0.6781039199871073,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "i'm headed home.. sea world closed early",
+    "entropy": 0.08343869345166693,
+    "predicted_class": 0,
+    "confidence": 0.9859645108855684,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092e\u0939\u093f\u0932\u093e \u0938\u0936\u0915\u094d\u0924\u0940\u0915\u0930\u0923\u0915 \u0915\u093e\u091c \u0917\u093e\u092e\u092e\u0947\u0902 \u092c\u0922\u093c\u093f \u0930\u0939\u0932 \u091b\u0928\u093f",
+    "entropy": 0.7926940499587971,
+    "predicted_class": 2,
+    "confidence": 0.5589161878084465,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "wat grudge has manipal against me....everytime i hv a exam....the weatehr has to b &quot;mast&quot; a nite b4...",
+    "entropy": 0.4030979208904122,
+    "predicted_class": 0,
+    "confidence": 0.8959334772229545,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0938\u093f\u0902\u091a\u093e\u0908 \u092f\u094b\u091c\u0928\u093e \u0938\u0901 \u0916\u0947\u0924 \u0939\u0930\u093f\u092f\u0930 \u0917\u0947\u0932",
+    "entropy": 0.6997802151455781,
+    "predicted_class": 2,
+    "confidence": 0.6732252550563619,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092a\u0930\u093f\u0935\u093e\u0930 \u092e\u093f\u0932\u093f\u0915\u093d \u0924\u094d\u092f\u094b\u0939\u093e\u0930 \u092e\u0928\u093e\u092c\u0948\u0924 \u0924 \u0905\u091b\u093f",
+    "entropy": 0.5013668774967395,
+    "predicted_class": 1,
+    "confidence": 0.8568768900430948,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0928\u0942\u0924\u0928 \u0938\u093e\u092e\u0941\u0926\u093e\u092f\u093f\u0915 \u092d\u0935\u0928 \u092c\u0928\u0932\u093e\u0938\u0947 \u092c\u0948\u0938\u093e\u0930\u0915 \u0938\u0941\u0935\u093f\u0927\u093e \u092d\u093d \u0917\u0947\u0932",
+    "entropy": 0.7904582894427654,
+    "predicted_class": 1,
+    "confidence": 0.49783372499110695,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "i miss my doggy, lucy! best dog ever!!!",
+    "entropy": 0.07747612321774687,
+    "predicted_class": 0,
+    "confidence": 0.9871705521642826,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092f\u094c, \u0938\u092d \u0915\u093e\u0930\u094d\u092f \u0924\u0901 \u0938\u092e\u092f \u092a\u0930 \u092a\u0942\u0930\u093e \u092d\u093d \u0917\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.8182872861382019,
+    "predicted_class": 2,
+    "confidence": 0.5597566099987192,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0917\u0930\u0940\u092c \u092c\u091a\u094d\u091a\u093e\u0915\u0947 \u092e\u0941\u092b\u094d\u0924 \u0936\u093f\u0915\u094d\u0937\u093e\u0915 \u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u092d\u0947\u0932",
+    "entropy": 0.7243041244640254,
+    "predicted_class": 2,
+    "confidence": 0.6922143016145179,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0938\u093e\u092e\u0942\u0939\u093f\u0915 \u092a\u0942\u091c\u093e-\u092a\u093e\u0920\u0938\u0901 \u0917\u093e\u092e\u092e\u0947\u0902 \u090f\u0915\u091c\u0941\u091f\u0924\u093e \u0906\u092c\u093f \u0917\u0947\u0932",
+    "entropy": 0.6584580675998579,
+    "predicted_class": 2,
+    "confidence": 0.7476864316038506,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0911\u0928\u0932\u093e\u0907\u0928 \u092a\u0948\u0938\u093e \u092d\u0947\u091c\u092c \u0906\u0938\u093e\u0928 \u092d\u093d \u0917\u0947\u0932 \u0905\u091b\u093f",
+    "entropy": 0.8226812288590593,
+    "predicted_class": 2,
+    "confidence": 0.548532620022203,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0939\u0901, \u0928\u0942\u0924\u0928\u0930\u093e\u0924\u094d\u0930 \u092d\u0940\u0924\u0930\u0902 \u0909\u092a\u0935\u093e\u0938 \u0930\u0916\u0948\u0924 \u091b\u0940",
+    "entropy": 0.8372461673260403,
+    "predicted_class": 1,
+    "confidence": 0.5942187845327814,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "@paula181 hey you know the finance thing? did you get yours sorted 'cos i cant get on it help please! x",
+    "entropy": 0.11796152922333167,
+    "predicted_class": 0,
+    "confidence": 0.9783579108016219,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@th4ever job train) times over the past 29 years! i'm so stuck!",
+    "entropy": 0.12009921737675495,
+    "predicted_class": 0,
+    "confidence": 0.978148771286743,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "fucking earthquakes..! and the aftershocks are still coming",
+    "entropy": 0.07161783491203948,
+    "predicted_class": 0,
+    "confidence": 0.9881420908080885,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u093e\u092e\u093e-\u091a\u0915\u0947\u0935\u093e \u0924\u094d\u092f\u094b\u0939\u093e\u0930 \u092a\u0939\u0941\u0901\u091a\u0932 \u091b\u0948\u0915",
+    "entropy": 0.7087720046300391,
+    "predicted_class": 1,
+    "confidence": 0.7410544705737124,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0911\u0928\u0932\u093e\u0907\u0928 \u0905\u0927\u094d\u092f\u092f\u0928 \u0938\u0901 \u092c\u091a\u094d\u091a\u093e \u0906\u0917\u0942 \u092c\u0922\u093c\u093f \u0930\u0939\u0948 \u0905\u091b\u093f",
+    "entropy": 0.7785388735777821,
+    "predicted_class": 1,
+    "confidence": 0.6677896090939327,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0928\u0942\u0924\u0928 \u092e\u0941\u0916\u093f\u092f\u093e \u0917\u093e\u092e \u0939\u0940 \u0935\u093f\u0915\u093e\u0938 \u092e\u0947 \u0932\u093e\u0917\u0932 \u091b\u0928\u093f",
+    "entropy": 0.816034296225985,
+    "predicted_class": 1,
+    "confidence": 0.49473984532764836,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u092e\u093e\u0928\u0938\u0942\u0928 \u090f\u0939\u093f \u092c\u0947\u0930 \u0926\u0947\u0930\u0940\u0938\u0947 \u090f\u0932\u093e\u0939",
+    "entropy": 0.8517269642421648,
+    "predicted_class": 2,
+    "confidence": 0.5418224687428725,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0916\u0947\u0924\u092d\u0940\u0924\u0930 \u0938\u0930\u0938\u094b\u0902\u0915 \u092b\u0942\u0932 \u0916\u093f\u0932\u0932 \u091b\u0948\u0915",
+    "entropy": 0.7114778477322865,
+    "predicted_class": 2,
+    "confidence": 0.6857495823084859,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0905\u092a\u0928\u093e \u092c\u0939\u093f\u0928 \u0936\u0939\u0930 \u092e\u0947\u0902 \u092a\u0922\u093c\u0948\u0924 \u0905\u091b\u0948\u0915",
+    "entropy": 0.8446971197688531,
+    "predicted_class": 1,
+    "confidence": 0.563625486278327,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0926\u093e\u0926\u093e-\u0926\u093e\u0926\u0940 \u0939\u092e\u093e\u0930\u093e \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u092c\u0948\u0924 \u0905\u091b\u093f",
+    "entropy": 0.6371844013141856,
+    "predicted_class": 1,
+    "confidence": 0.7786850167505918,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0936\u093f\u0935\u093f\u0930 \u092d\u0940\u0924\u0930 \u0928\u093f\u0903\u0936\u0941\u0932\u094d\u0915 \u091c\u093e\u0901\u091a \u0939\u094b \u0917\u0947\u0932\u093e\u0939",
+    "entropy": 0.8127091396579924,
+    "predicted_class": 2,
+    "confidence": 0.5626050984774592,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0926\u093e\u0926\u093e-\u0926\u093e\u0926\u0940 \u0905\u092a\u0928\u093e \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u092c\u0948\u0924 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.6901708903107242,
+    "predicted_class": 1,
+    "confidence": 0.7459170454726672,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092a\u0921\u093c\u094b\u0938\u0940 \u0916\u0942\u092c \u092e\u0926\u0926\u0917\u093e\u0930 \u091b\u0925\u093f",
+    "entropy": 0.8189588235703187,
+    "predicted_class": 2,
+    "confidence": 0.535334617056357,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0939\u092e\u0930 \u092d\u093e\u0908 \u092c\u0921\u093c \u092a\u0930\u093f\u0936\u094d\u0930\u092e\u0940 \u091b\u0925\u093f",
+    "entropy": 0.7374399396119611,
+    "predicted_class": 2,
+    "confidence": 0.6672435373936187,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "doesnt trust them! hahahahah nina bum bum",
+    "entropy": 0.07384352864355068,
+    "predicted_class": 0,
+    "confidence": 0.9878813526792241,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092f\u094c, \u0939\u092e\u0930 \u092a\u0930\u093f\u0935\u093e\u0930 \u092e\u0947\u0902 \u0935\u093f\u0935\u093e\u0939 \u0905\u0917\u093f\u0932\u093e \u092e\u0939\u0940\u0928\u093e \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.8298755545236394,
+    "predicted_class": 1,
+    "confidence": 0.5752343857050554,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092e\u0939\u093f\u0932\u093e \u092e\u0902\u0921\u0932\u0915 \u092c\u0948\u0938\u093e\u0930 \u092d\u094b\u0930 \u092d\u0947\u0932",
+    "entropy": 0.8684138700797441,
+    "predicted_class": 2,
+    "confidence": 0.47251939403821375,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "allergies on top of a headcold? makes for a miserable monday. my eyes have never itched so much.",
+    "entropy": 0.1222011974738007,
+    "predicted_class": 0,
+    "confidence": 0.977676080191075,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0930\u092c\u0940 \u0916\u0947\u0924\u0940\u0915 \u092c\u0941\u0906\u0908 \u0936\u0941\u0930\u0942 \u092d\u093d \u0917\u0947\u0932 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7844989888937139,
+    "predicted_class": 2,
+    "confidence": 0.6189261573475562,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0936\u093f\u0935\u093f\u0930 \u092d\u0940\u0924\u0930 \u0928\u093f\u0903\u0936\u0941\u0932\u094d\u0915 \u091c\u093e\u0901\u091a \u0917\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.760478957149553,
+    "predicted_class": 2,
+    "confidence": 0.6489943167373917,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0920\u0902\u0922 \u092e\u0947 \u0927\u0942\u092a \u092c\u0939\u0941\u0924 \u092e\u0940\u0920 \u0932\u0917\u0948\u0924 \u0939\u0948",
+    "entropy": 0.8758925392600112,
+    "predicted_class": 2,
+    "confidence": 0.4971340876553285,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0917\u093e\u092e\u092e\u0947\u0902 \u091c\u0928\u0917\u0923\u0928\u093e \u0936\u0941\u0930\u0942 \u092d\u093d \u0917\u0947\u0932 \u091b\u0948\u0915",
+    "entropy": 0.8150459392300848,
+    "predicted_class": 2,
+    "confidence": 0.587548088094475,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u091b\u093e\u0924\u094d\u0930\u093e\u0935\u093e\u0938\u092e\u0947 \u0938\u0940\u091f \u0916\u093e\u0932\u0940 \u091b\u0925\u093f",
+    "entropy": 0.8627579409739383,
+    "predicted_class": 2,
+    "confidence": 0.49048989110255115,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "now i have 2 call him &amp; give him the bad news on what happen 2 us, losing the baby on may 19th well found out may 16th very sad now",
+    "entropy": 0.19387768773925806,
+    "predicted_class": 0,
+    "confidence": 0.9602528888389006,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u091c\u093e\u0901\u091a \u0905\u0917\u093f\u0932\u093e \u0938\u092a\u094d\u0924\u093e\u0939 \u091b\u0948\u0915",
+    "entropy": 0.7745414579495893,
+    "predicted_class": 1,
+    "confidence": 0.6420389680933839,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "ate too many peanut butter sandwiches",
+    "entropy": 0.2012113321305839,
+    "predicted_class": 0,
+    "confidence": 0.9585551628298898,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092f\u094c, \u0939\u092e\u0930 \u0938\u094d\u0915\u0942\u0932 \u0938\u094b\u092e\u0935\u093e\u0930 \u0938\u093d \u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930 \u0916\u0941\u0932\u0948\u0924 \u091b\u0925\u093f",
+    "entropy": 0.7651155872731528,
+    "predicted_class": 1,
+    "confidence": 0.5512165627220427,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0935\u0943\u0915\u094d\u0937\u093e\u0930\u094b\u092a\u0923 \u0905\u092d\u093f\u092f\u093e\u0928\u0938\u0947 \u0917\u093e\u092e \u0939\u0930\u093f\u092f\u0930 \u092d\u093d \u0917\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.7219252260850714,
+    "predicted_class": 2,
+    "confidence": 0.7014901881165577,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u092d\u094b\u091c\u0928-\u092a\u093e\u0928\u0940 \u0925\u094b\u0921\u093c\u0947 \u092c\u0928\u093e\u0907\u0924-\u092c\u0928\u093e\u0907\u0924 \u0938\u093e\u0901\u091d \u0917\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.7230236802755274,
+    "predicted_class": 2,
+    "confidence": 0.6974774475704811,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "i saw a gorilla called niko at longleat safara park. it was lonely and old and sad i wanted to take it home and call it bollo.",
+    "entropy": 0.11799001985095925,
+    "predicted_class": 0,
+    "confidence": 0.9786479661778632,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0906\u0907 \u092c\u091c\u093e\u0930 \u092e\u0947 \u092c\u0939\u0941\u0924 \u0932\u094b\u0915 \u091b\u0932",
+    "entropy": 0.7967879945469443,
+    "predicted_class": 1,
+    "confidence": 0.49754549909051327,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0939\u092e\u0930 \u092e\u093e\u090f \u092c\u0921\u093c \u092e\u0947\u0939\u0928\u0924\u0940 \u091b\u0925\u093f",
+    "entropy": 0.7922701345430097,
+    "predicted_class": 1,
+    "confidence": 0.6005903638850381,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "12 hour day shift ahead of me and its gorgeous out, not fair!!",
+    "entropy": 0.06709400719378328,
+    "predicted_class": 0,
+    "confidence": 0.9891912146181011,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@emi_xoxo mhm, something happened yesterday which did freak me out, but can't explain via twitter",
+    "entropy": 0.0580253628695315,
+    "predicted_class": 0,
+    "confidence": 0.9909045278179651,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "school tommorow this week has gone so quick",
+    "entropy": 0.061482700661208645,
+    "predicted_class": 0,
+    "confidence": 0.9902514120074998,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0928\u092f\u093e \u0936\u0948\u0915\u094d\u0937\u0923\u093f\u0915 \u0938\u0924\u094d\u0930 \u0905\u0917\u0932\u093e \u092e\u0939\u0940\u0928\u093e \u0936\u0941\u0930\u0942 \u0939\u090f\u0924",
+    "entropy": 0.7996313779621385,
+    "predicted_class": 2,
+    "confidence": 0.5167639735370616,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "now they're playing a beatles medley and it's making me miss my dad",
+    "entropy": 0.09168897078962994,
+    "predicted_class": 0,
+    "confidence": 0.9842968638501862,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092f\u094c, \u0911\u0928\u0932\u093e\u0907\u0928 \u0915\u093e\u091c \u0915\u0930\u0928\u093f\u0939\u093e\u0930 \u0932\u094b\u0915 \u092c\u0922\u093c\u093f \u0930\u0939\u0948 \u091b\u0948\u0915",
+    "entropy": 0.6756102468530807,
+    "predicted_class": 1,
+    "confidence": 0.7254477304707713,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0938\u092d \u0915\u093e\u092e \u0938\u092e\u092f \u092a\u0930 \u092a\u0942\u0930\u093e \u092d\u093d \u0917\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.7637399110650298,
+    "predicted_class": 2,
+    "confidence": 0.6199610834597957,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0938\u092e\u093e\u091c\u092e\u0947 \u0928\u0935 \u092a\u0939\u0932\u0915\u0947\u0901 \u0932\u093d\u0915\u093d \u091a\u0930\u094d\u091a\u093e \u091a\u0932\u093f \u0930\u0939\u0932 \u091b\u0928\u093f",
+    "entropy": 0.8172417465331692,
+    "predicted_class": 1,
+    "confidence": 0.5546971051488393,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092f\u094c, \u0939\u092e \u0938\u093e\u0901\u091d \u092e\u0947 \u091a\u093e\u0939 \u092a\u0940\u092c\u0948\u0924 \u091b\u0940",
+    "entropy": 0.7721151045969603,
+    "predicted_class": 1,
+    "confidence": 0.6805304962669468,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0906\u091c \u092c\u0930\u0916\u093e \u0939\u094b\u092f\u0924 \u0915\u093f \u0928\u0939\u093f \u0938\u093d \u0928\u0939\u093f \u092c\u0941\u091d\u093e\u0907\u0924 \u091b\u0925\u093f",
+    "entropy": 0.7568380600174083,
+    "predicted_class": 1,
+    "confidence": 0.6179165673417965,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u092a\u0902\u091a\u093e\u092f\u0924 \u092c\u0948\u0938\u093e\u0930 \u0915\u093e\u0932\u094d\u0939\u093f \u0930\u093e\u0924\u093f \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.7741034750144724,
+    "predicted_class": 1,
+    "confidence": 0.6760997254885732,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0926\u0941\u0915\u093e\u0928 \u091a\u0932\u093e\u0907 \u0915\u093d \u092a\u0930\u093f\u0935\u093e\u0930 \u092a\u094b\u0938\u093f \u0905\u091b\u0928\u094d\u0939\u093f \u091b\u0940",
+    "entropy": 0.5920993254623171,
+    "predicted_class": 1,
+    "confidence": 0.7945191008763512,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0935\u0943\u0915\u094d\u0937\u093e\u0930\u094b\u092a\u0923 \u0905\u092d\u093f\u092f\u093e\u0928 \u0938\u0947 \u0917\u093e\u092e \u0939\u0930\u093f\u092f\u0930 \u092d\u093d \u0917\u0947\u0932",
+    "entropy": 0.6788631923508418,
+    "predicted_class": 2,
+    "confidence": 0.7250858621559547,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@dawnymac74 i do but haven't seen in ages - worthers just aint the same",
+    "entropy": 0.08069980149459563,
+    "predicted_class": 0,
+    "confidence": 0.9864189378461232,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092f\u094c, \u092e\u0902\u0926\u093f\u0930 \u092d\u0940\u0924\u0930 \u092d\u0940\u0921\u093c \u0938\u094b\u092e\u0935\u093e\u0930 \u0915\u0947\u0901 \u092c\u0947\u0936\u0940 \u0939\u094b\u0907\u0924 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7844242176042244,
+    "predicted_class": 2,
+    "confidence": 0.5087530480620107,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u091b\u093e\u0924\u094d\u0930\u093e\u0935\u093e\u0938\u092d\u0940\u0924\u0930 \u0938\u0940\u091f \u0916\u093e\u0932\u0940 \u091b\u0948\u0915",
+    "entropy": 0.8209769603997448,
+    "predicted_class": 2,
+    "confidence": 0.6214329949210708,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0928\u0942\u0924\u0928 \u090f\u092a\u094d\u092a \u0921\u093e\u0909\u0928\u0932\u094b\u0921 \u0924 \u0915\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.7526679670647978,
+    "predicted_class": 1,
+    "confidence": 0.6738525642376801,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@theheatmakerz no love for the maguire anymore",
+    "entropy": 0.055395947461115425,
+    "predicted_class": 0,
+    "confidence": 0.9913686763059603,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0924\u0901 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u092c\u0940\u092e\u093e\u0915 \u0928\u093e\u092e\u093e\u0902\u0915\u0928 \u0905\u092d\u093f\u092f\u093e\u0928 \u091a\u0932\u093f \u0930\u0939\u0948\u0924 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7019770395724862,
+    "predicted_class": 1,
+    "confidence": 0.7013334470321548,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0936\u093f\u0935\u093f\u0930\u092e\u0947\u0902 \u0938\u0948\u0915\u0921\u093c\u094b \u0932\u094b\u0917\u0915 \u091c\u093e\u0901\u091a \u092d\u093d \u0917\u0947\u0932",
+    "entropy": 0.7585758770364565,
+    "predicted_class": 2,
+    "confidence": 0.6037014724355365,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0905\u092a\u0928\u093e \u092a\u0930\u093f\u0935\u093e\u0930 \u092c\u0921\u093c \u0916\u0941\u0936\u0939\u093e\u0932 \u0905\u091b\u093f",
+    "entropy": 0.7980142797332632,
+    "predicted_class": 1,
+    "confidence": 0.5316995612730424,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0924\u0901 \u0908 \u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0916\u0942\u092c \u0909\u0924\u094d\u0924\u092e \u091b\u0925\u093f",
+    "entropy": 0.7769541824766836,
+    "predicted_class": 2,
+    "confidence": 0.6106818114194392,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092e\u093e\u090f \u0939\u093e\u0925\u0915 \u0930\u094b\u091f\u0940-\u092a\u093e\u0928\u0940 \u0938\u092c\u0938\u0901 \u0938\u094d\u0935\u093e\u0926\u093f\u0937\u094d\u091f \u0939\u094b\u0907\u0924 \u0905\u091b\u093f",
+    "entropy": 0.7417964603537841,
+    "predicted_class": 1,
+    "confidence": 0.6718467118655272,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u092e\u0930 \u0917\u0941\u0930\u0941\u091c\u0940 \u090f\u0915\u0926\u092e \u092c\u0922\u093c\u093f\u092f\u093e \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.6794455680256434,
+    "predicted_class": 2,
+    "confidence": 0.7347586189537868,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0928\u0935 \u092e\u093e\u0938\u094d\u091f\u0930 \u0938\u093e\u0939\u092c \u090f\u0939\u093f \u0938\u0924\u094d\u0930 \u0938\u0901 \u090f\u0932\u093e\u0939 \u0905\u091b\u093f",
+    "entropy": 0.8304447475624942,
+    "predicted_class": 1,
+    "confidence": 0.5516761502256635,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u092c\u0947\u0930\u094b\u091c\u0917\u093e\u0930\u0940 \u092c\u0922\u093c\u0948\u0924 \u091c\u093e \u0930\u0939\u0948 \u0924 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7851354928990382,
+    "predicted_class": 1,
+    "confidence": 0.6352240304895878,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u092e\u091c\u0926\u0942\u0930\u0940 \u0915\u092e \u092d\u093d \u0917\u0947\u0932\u093e\u0938\u0947 \u0918\u0930 \u091a\u0932\u0947\u092c\u093e \u0915\u0920\u093f\u0928 \u092d\u093d \u0917\u0947\u0932",
+    "entropy": 0.78392479887116,
+    "predicted_class": 2,
+    "confidence": 0.6343954895097224,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0938\u093e\u092e\u093e\u091c\u093f\u0915 \u0915\u0941\u0930\u0940\u0924\u093f \u0938\u093d \u092e\u0939\u093f\u0932\u093e \u092a\u0930\u0947\u0936\u093e\u0928 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.778546835990048,
+    "predicted_class": 1,
+    "confidence": 0.5557957039459713,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0939\u092e \u092a\u094d\u0930\u0924\u093f\u0926\u093f\u0928 \u0930\u0947\u0921\u093f\u092f\u094b \u0938\u0941\u0928\u0948\u0924 \u091b\u0940",
+    "entropy": 0.5960060364105375,
+    "predicted_class": 1,
+    "confidence": 0.7907769522076266,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0917\u093e\u0901\u0935 \u092e\u0947\u0902\u0902 \u092a\u093e\u0928\u093f\u0915 \u0938\u094d\u0930\u094b\u0924 \u091b\u0948\u0915",
+    "entropy": 0.721974688080405,
+    "predicted_class": 1,
+    "confidence": 0.7167037264977862,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u0939\u0940 \u092d\u0940\u0924\u0930\u0902 \u0928\u093f\u0915\u094d\u0915\u0947 \u092e\u093e\u0930\u092a\u0940\u091f \u0939\u094b\u0907\u0924 \u091b\u0925\u093f",
+    "entropy": 0.777942568149609,
+    "predicted_class": 2,
+    "confidence": 0.6242240462518553,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0917\u093e\u092f-\u092d\u0948\u0902\u0938 \u0938\u093d \u0926\u0942\u0927 \u092c\u0939\u0941\u0924 \u092d\u0947\u091f\u0948\u0924 \u0905\u091b\u093f",
+    "entropy": 0.7604919354031352,
+    "predicted_class": 2,
+    "confidence": 0.6801088172734177,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "guantanamo is still open, i thought obama promised to close it",
+    "entropy": 0.1414512497151284,
+    "predicted_class": 0,
+    "confidence": 0.9730732406103343,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@imwendy i threw ours out, but forgot to tie the bag and the kids found it....it is all over the place",
+    "entropy": 0.06711945207525791,
+    "predicted_class": 0,
+    "confidence": 0.9890916552811391,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0924\u0901 \u0906\u0902\u0917\u0928\u092d\u0940\u0924\u0930 \u0924\u0941\u0932\u0938\u0940\u0915 \u092a\u094c\u0927\u093e \u0938\u0941\u0928\u094d\u0926\u0930 \u0932\u093e\u0917\u0948\u0924 \u091b\u0928\u093f",
+    "entropy": 0.8660333529245571,
+    "predicted_class": 2,
+    "confidence": 0.49916655800330867,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "back at work. finish tomorrow which isn't a good thing for my pay packet",
+    "entropy": 0.10059080206771989,
+    "predicted_class": 0,
+    "confidence": 0.9820564672454359,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092c\u093e\u0930\u0939\u092e\u093e\u0938\u093e \u0917\u0940\u0924\u092d\u0940\u0924\u0930 \u090b\u0924\u0941 \u092a\u0930\u093f\u0935\u0930\u094d\u0924\u0928\u0915 \u0935\u0930\u094d\u0923\u0928 \u091b\u0925\u093f",
+    "entropy": 0.8115961717563662,
+    "predicted_class": 2,
+    "confidence": 0.56984510520386,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "upi \u0938\u0947 \u092a\u0948\u0938\u093e \u092d\u0947\u091c\u092c \u092c\u0939\u0941\u0924 \u0906\u0938\u093e\u0928 \u092d\u093d \u0917\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.7829488741190247,
+    "predicted_class": 2,
+    "confidence": 0.6607483499484352,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092e\u0928\u0930\u0947\u0917\u093e\u0938\u0901 \u0917\u093e\u092e\u092e\u0947 \u0915\u093e\u091c \u092d\u0947\u091f\u0932 \u0932\u094b\u0917 \u0916\u0941\u0936 \u091b\u0925\u093f",
+    "entropy": 0.5464230656736773,
+    "predicted_class": 2,
+    "confidence": 0.8097588747151245,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u092e\u0930 \u0938\u094d\u0915\u0942\u0932 \u0938\u094b\u092e\u0935\u093e\u0930 \u0938\u0901 \u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930 \u0916\u0941\u0932\u0948\u0924 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.768073062043964,
+    "predicted_class": 1,
+    "confidence": 0.5250085732029729,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u093e\u0926\u093e-\u0926\u093e\u0926\u0940 \u0939\u092e\u0930\u094b \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u092c\u0948\u0924 \u0905\u091b\u093f",
+    "entropy": 0.522984987318504,
+    "predicted_class": 1,
+    "confidence": 0.8379712361917737,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u092c\u0948\u0902\u0915 \u092e\u0947\u0902 \u092a\u0948\u0938\u093e \u091c\u092e\u093e \u0915\u0930\u092c \u091c\u0930\u0942\u0930\u0940 \u0924 \u0905\u091b\u093f",
+    "entropy": 0.740002329990513,
+    "predicted_class": 1,
+    "confidence": 0.677319010429889,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "twitter distracted me &amp; i missed the whole of great british menu",
+    "entropy": 0.0777118043145155,
+    "predicted_class": 0,
+    "confidence": 0.9871056257271503,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0939\u0901, \u0906\u0907 \u0939\u093e\u091f\u092e\u0947 \u091c\u0947\u092c\u093e\u0915 \u0905\u091b\u093f",
+    "entropy": 0.8227043008805326,
+    "predicted_class": 1,
+    "confidence": 0.6040515519407419,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0916\u0947\u0924\u092e\u0947 \u0938\u0930\u0938\u094b\u0902\u0915 \u092b\u0942\u0932 \u0916\u093f\u0932\u0932 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7751757329209656,
+    "predicted_class": 2,
+    "confidence": 0.6051422415131864,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "just got home from thenababes casa. i hate going home early! now i'm waiting for my mom to get ready &amp; goin' to wal-mart lataaah.",
+    "entropy": 0.15882381887080135,
+    "predicted_class": 0,
+    "confidence": 0.9680064832965963,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0924\u0901 \u092e\u093e\u0928\u0938\u0942\u0928 \u090f\u0939\u093f \u092c\u0947\u0930 \u0926\u0947\u0930\u0940\u0938\u093d \u0906\u092c\u093f \u0917\u0947\u0932",
+    "entropy": 0.8600812457860443,
+    "predicted_class": 2,
+    "confidence": 0.5011273746984467,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092f\u094c, \u0928\u092f\u093e \u092a\u0902\u091a\u093e\u092f\u0924 \u0938\u091a\u093f\u0935 \u0928\u093f\u092f\u0941\u0915\u094d\u0924 \u092d\u0947\u0932\u093e\u0939 \u091b\u0925\u093f",
+    "entropy": 0.7730946996763628,
+    "predicted_class": 1,
+    "confidence": 0.6787753037202463,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0928\u0942\u0924\u0928 \u0938\u093e\u092e\u0941\u0926\u093e\u092f\u093f\u0915 \u092d\u0935\u0928 \u092c\u0928\u0932\u093e\u0938\u0901 \u092c\u0948\u0938\u093e\u0930\u0915 \u0938\u0941\u0935\u093f\u0927\u093e \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.7304410058143918,
+    "predicted_class": 1,
+    "confidence": 0.6627660625146148,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0918\u0930 \u0938\u093e\u092b-\u0938\u0941\u0925\u0930\u093e \u0930\u0939\u0948\u093e\u0938\u093d \u092e\u0928 \u092a\u094d\u0930\u0938\u0928\u094d\u0928 \u0930\u0939\u0948\u0924 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7904298939965044,
+    "predicted_class": 1,
+    "confidence": 0.666195478312171,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092c\u0930\u0916\u093e\u0915 \u0924\u0901 \u092c\u093e\u0926 \u0939\u0935\u093e \u0924\u093e\u091c\u093e \u092d\u0947\u0932",
+    "entropy": 0.7772746134053282,
+    "predicted_class": 1,
+    "confidence": 0.615460692713261,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u092a\u0942\u0930\u092c\u0940 \u0939\u0935\u093e \u092c\u0939\u093f \u0930\u0939\u0932 \u091b\u0925\u093f",
+    "entropy": 0.6998015871781216,
+    "predicted_class": 1,
+    "confidence": 0.7448931486619869,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0939\u092e\u0930 \u092c\u0939\u093f\u0928 \u092a\u0922\u093c\u0928\u093e\u0908 \u092d\u0940\u0924\u0930 \u090f\u0915\u0926\u092e \u0939\u094b\u0936\u093f\u092f\u093e\u0930 \u091b\u0928\u093f",
+    "entropy": 0.7674549530059447,
+    "predicted_class": 2,
+    "confidence": 0.5669603135987129,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0938\u093e\u0902\u0938\u0926 \u0928\u093f\u0927\u093f\u0938\u093d \u0928\u092f\u093e \u092d\u0935\u0928 \u092c\u0928\u0947\u092c\u093e\u0915 \u092f\u094b\u091c\u0928\u093e \u091b\u0925\u093f",
+    "entropy": 0.7558308205511068,
+    "predicted_class": 1,
+    "confidence": 0.5849617530918808,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "today's plans: country bike tour; heinekin tour !!!! (and laundry? but i'm on vaycay...)",
+    "entropy": 0.07893222881624204,
+    "predicted_class": 0,
+    "confidence": 0.9863835898329443,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "rapidly coming to the conclusion that there's no way to edit this film together and have it look good. it looks like it was cut by chimps",
+    "entropy": 0.14118466818351352,
+    "predicted_class": 0,
+    "confidence": 0.9733835131992516,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0905\u0907 \u0926\u093f\u0928 \u092e\u094c\u0938\u092e \u092c\u0939\u0941\u0924 \u0909\u0924\u094d\u0924\u092e \u091b\u0925\u093f",
+    "entropy": 0.8608661774162655,
+    "predicted_class": 1,
+    "confidence": 0.5852500059769401,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "@sigp220 thats kinda like me loungin in my bra...not good nor bad..just kinda is..not to mention, it's uncomfy",
+    "entropy": 0.14860025882366476,
+    "predicted_class": 0,
+    "confidence": 0.9716399324513761,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092f\u094c, \u092e\u091c\u0926\u0942\u0930\u0940 \u0925\u094b\u0921\u093c\u0947 \u092c\u0922\u093c\u093f \u0917\u0947\u0932 \u091b\u0928\u093f",
+    "entropy": 0.7864462080730965,
+    "predicted_class": 2,
+    "confidence": 0.6358369466456246,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0936\u093f\u0935\u093f\u0930 \u092d\u0940\u0924\u0930\u0902 \u0928\u093f\u0903\u0936\u0941\u0932\u094d\u0915 \u091c\u093e\u0901\u091a \u092d\u093d \u0917\u0947\u0932\u093e\u0939",
+    "entropy": 0.8262510082835821,
+    "predicted_class": 2,
+    "confidence": 0.48273399824715313,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "just had a lovely avacado, bacon and chicken baguette - now time for more work",
+    "entropy": 0.07284962826391407,
+    "predicted_class": 0,
+    "confidence": 0.9880914536988847,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "still sick with the tummy flu",
+    "entropy": 0.07112780568765227,
+    "predicted_class": 0,
+    "confidence": 0.988425190279939,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "ugh back to rainy baltimore",
+    "entropy": 0.061545571147321856,
+    "predicted_class": 0,
+    "confidence": 0.9899316539203331,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0905\u092a\u0928 \u092c\u0939\u093f\u0928 \u0926\u093f\u0932\u094d\u0932\u0940\u092e\u0947 \u092a\u0922\u093c\u0948\u0924 \u091b\u0925\u093f",
+    "entropy": 0.8026954260008333,
+    "predicted_class": 2,
+    "confidence": 0.5212337937169285,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u091b\u094b\u091f-\u091b\u094b\u091f \u0916\u0941\u0936\u0940\u0938\u093d \u091c\u093f\u0928\u0917\u0940 \u092e\u0927\u0941\u0930 \u092c\u0928\u0948\u0924 \u0905\u091b\u093f",
+    "entropy": 0.8654097835498717,
+    "predicted_class": 2,
+    "confidence": 0.5581593548284804,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0938\u092e\u093e\u091c\u092e\u0947 \u091c\u093e\u0917\u0930\u0942\u0915\u0924\u093e \u0905\u092d\u093f\u092f\u093e\u0928\u0938\u0901 \u0938\u0915\u093e\u0930\u093e\u0924\u094d\u092e\u0915 \u092c\u0926\u0932\u093e\u0935 \u0906\u092c\u093f \u0917\u0947\u0932",
+    "entropy": 0.7228162198959994,
+    "predicted_class": 2,
+    "confidence": 0.6727560095827824,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "i really, really want to start writing again. but i am not inspired yet.",
+    "entropy": 0.16610226675227846,
+    "predicted_class": 0,
+    "confidence": 0.9669514859657025,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "i wish spring were over.",
+    "entropy": 0.0428276524493004,
+    "predicted_class": 0,
+    "confidence": 0.9936483616383269,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0938\u093e\u092e\u093e\u091c\u093f\u0915 \u0915\u093e\u0930\u094d\u092f \u092d\u0940\u0924\u0930 \u0938\u092d \u092d\u093e\u0917 \u0932\u0948\u0924 \u091b\u0925\u093f",
+    "entropy": 0.7764182966687938,
+    "predicted_class": 2,
+    "confidence": 0.5321216317106013,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0935\u093f\u0935\u093e\u0939\u0915 \u0917\u0940\u0924 \u0905\u0916\u0928\u094b \u092a\u0930\u092e\u094d\u092a\u0930\u093e\u0917\u0924 \u0922\u0902\u0917\u0938\u0947 \u0917\u093e\u0913\u0932 \u091c\u093e\u0907\u0924 \u091b\u0928\u093f",
+    "entropy": 0.8091455052443985,
+    "predicted_class": 2,
+    "confidence": 0.5623634879161514,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092d\u094b\u0930\u0938\u0901 \u0939\u0935\u093e\u0915 \u0926\u093f\u0936\u093e \u092c\u0926\u0932\u093f \u0917\u0947\u0932\u093e\u0939 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7914949967248649,
+    "predicted_class": 2,
+    "confidence": 0.5566759048612596,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0938\u093e\u092e\u093e\u091c\u093f\u0915 \u0915\u0941\u0930\u0940\u0924\u093f \u0938\u093d \u0915\u0928\u0947 \u092e\u0939\u093f\u0932\u093e \u092a\u0930\u0947\u0936\u093e\u0928 \u091b\u0928\u093f",
+    "entropy": 0.79505944043108,
+    "predicted_class": 1,
+    "confidence": 0.5003284253316006,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0917\u093e\u092e\u092e\u0947\u0902 \u0928\u092f\u093e \u092c\u0948\u0902\u0915 \u0936\u093e\u0916\u093e \u0916\u0941\u091c\u0932 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7160038225771495,
+    "predicted_class": 2,
+    "confidence": 0.6402811224733909,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0916\u0947\u0924\u0915 \u092e\u0947\u0921\u093c \u092c\u093e\u0928\u094d\u0939\u092c \u091c\u0930\u0942\u0930\u0940 \u091b\u0948\u0915",
+    "entropy": 0.7852346469177989,
+    "predicted_class": 1,
+    "confidence": 0.5849507507052694,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0906\u0902\u0917\u0928\u092d\u0940\u0924\u0930 \u0924\u0941\u0932\u0938\u0940\u0915 \u092a\u094c\u0927\u093e \u0905\u091a\u094d\u091b\u093e \u0932\u093e\u0917\u0948\u0924 \u091b\u0928\u093f",
+    "entropy": 0.8482844427188472,
+    "predicted_class": 2,
+    "confidence": 0.5942627539300084,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0938\u093e\u092e\u093e\u091c\u093f\u0915 \u0939\u0940 \u0915\u093e\u0930\u094d\u092f\u0915\u094d\u0930\u092e \u0905\u0917\u093f\u0932\u093e \u0930\u0935\u093f\u0935\u093e\u0930 \u091b\u0925\u093f",
+    "entropy": 0.6865522179362213,
+    "predicted_class": 1,
+    "confidence": 0.7184560142763237,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@the_minimarie i don't want too",
+    "entropy": 0.07287266183703249,
+    "predicted_class": 0,
+    "confidence": 0.9880865831607369,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0939\u0901, \u0906\u0907 \u0918\u0930\u092e\u0947\u0902 \u0916\u093f\u091a\u0921\u093c\u0940 \u092c\u0928\u0932 \u091c\u0947 \u092c\u0921\u094d\u0921 \u0905\u091a\u094d\u091b\u093e \u0932\u093e\u0917\u0932",
+    "entropy": 0.7754903093863081,
+    "predicted_class": 2,
+    "confidence": 0.6113171675950648,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0939\u092e \u0938\u093e\u0901\u091d \u092d\u0940\u0924\u0930 \u091a\u093e\u0939 \u092a\u0940\u092c\u0948\u0924 \u091b\u0940",
+    "entropy": 0.7953937922077868,
+    "predicted_class": 1,
+    "confidence": 0.6610800473729808,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0928\u093f\u092f\u092e\u093f\u0924 \u0935\u094d\u092f\u093e\u092f\u093e\u092e \u0938\u0901 \u0939\u0940 \u0936\u0930\u0940\u0930 \u091a\u0941\u0938\u094d\u0924 \u0930\u0939\u0948\u0924 \u091b\u0928\u093f",
+    "entropy": 0.792402010184891,
+    "predicted_class": 1,
+    "confidence": 0.629891585214764,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u092a\u0930\u0940\u0915\u094d\u0937\u093e \u092e\u0947 \u092a\u094d\u0930\u0925\u092e \u0924\u0901 \u0938\u094d\u0925\u093e\u0928 \u092a\u093e\u0913\u0932",
+    "entropy": 0.9226956825151258,
+    "predicted_class": 1,
+    "confidence": 0.499660565462446,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "@chartel96 ja, kipt at vi tapt",
+    "entropy": 0.3471934486171818,
+    "predicted_class": 0,
+    "confidence": 0.9154358812306003,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "i wish these exercise people would leave. i'm hiding in the bedroom like norman bate's non-existent mother. plus i need more medication",
+    "entropy": 0.06701530979622186,
+    "predicted_class": 0,
+    "confidence": 0.9891987883214847,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0928\u0935 \u0905\u0938\u094d\u092a\u0924\u093e\u0932 \u0916\u0941\u091c\u0932\u093e \u0938\u093d \u0917\u093e\u0901\u0935\u0935\u093e\u0938\u0940 \u0916\u0941\u0936 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.6298403347289969,
+    "predicted_class": 2,
+    "confidence": 0.7470965850340084,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u092e\u0902\u0926\u093f\u0930\u092e\u0947\u0902 \u0926\u0930\u094d\u0936\u0928\u0915 \u092c\u093e\u0926 \u092e\u0928\u092e\u0947 \u0936\u093e\u0928\u094d\u0924\u093f \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.6791559376876739,
+    "predicted_class": 2,
+    "confidence": 0.7131851386665037,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@cacheadvance a kitty.",
+    "entropy": 0.11285882079647032,
+    "predicted_class": 0,
+    "confidence": 0.9797476053041109,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "i don't want it to be sunday 'cause that means tomorrow is monday....*sigh*",
+    "entropy": 0.1530251683374028,
+    "predicted_class": 0,
+    "confidence": 0.9705402671612003,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u092e\u0948\u0925\u093f\u0932\u0940 \u092d\u093e\u0937\u093e \u0916\u0942\u092c \u092e\u0927\u0941\u0930 \u0905\u091b\u093f",
+    "entropy": 0.753153157385865,
+    "predicted_class": 2,
+    "confidence": 0.619776974132914,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0924\u0901 \u0928\u0935 \u0928\u0947\u0924\u093e \u0924 \u091a\u0941\u0928\u0932 \u0917\u0947\u0932\u093e\u0939",
+    "entropy": 0.7618209691020534,
+    "predicted_class": 1,
+    "confidence": 0.7142160631528527,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0928\u0935 \u0928\u0940\u0924\u093f\u0938\u0901 \u0915\u093f\u0938\u093e\u0928\u0915\u0947 \u0938\u0940\u0927\u093e \u0932\u093e\u092d \u092d\u0947\u091f\u0932",
+    "entropy": 0.7994561309307062,
+    "predicted_class": 2,
+    "confidence": 0.5442622676254703,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "this weekend went by too fast! jules is cracking me up! he says i drive him crazy!? this coming from the kid who woke me up @ 8am!! :x",
+    "entropy": 0.061465430776415655,
+    "predicted_class": 0,
+    "confidence": 0.9902579510673605,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@stephenfry bah! nevermind, i know the booby was wrong too, clearly not my day for guesswork",
+    "entropy": 0.08827695909466292,
+    "predicted_class": 0,
+    "confidence": 0.9849461424788336,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "twitter's becoming boring how sad",
+    "entropy": 0.05368411953695623,
+    "predicted_class": 0,
+    "confidence": 0.9917128583758227,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0917\u093e\u092e\u092e\u0947\u0902 \u091c\u0928\u0917\u0923\u0928\u093e \u0936\u0941\u0930\u0942 \u092d\u093d \u0917\u0947\u0932 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7029722726407409,
+    "predicted_class": 2,
+    "confidence": 0.719497695660447,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "pretty sure my mum booked a dentist appointment for friday. she always does these things in secret and tells me an hour beforehand",
+    "entropy": 0.15411037835443933,
+    "predicted_class": 0,
+    "confidence": 0.9693868661144911,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "talking to cara. she's not letting me go to bed",
+    "entropy": 0.11949381404757459,
+    "predicted_class": 0,
+    "confidence": 0.9783163101380954,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0924\u0901 \u0917\u093e\u092e\u0918\u0930-\u0918\u0930 \u092e\u0947\u0902 \u091f\u093e\u0935\u0930 \u0932\u093e\u0917\u0932 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.734708709250765,
+    "predicted_class": 1,
+    "confidence": 0.7089919035016182,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@joecrm crm 3.0 small business edition (for sbs) could send and receive (promote) faxes out of the box. i was sorry tosee it go",
+    "entropy": 0.092356381460547,
+    "predicted_class": 0,
+    "confidence": 0.9841571480098145,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915 \u0938\u094d\u0935\u093e\u0938\u094d\u0925\u094d\u092f \u0915\u0947\u0902\u0926\u094d\u0930\u092e\u0947 \u0921\u0949\u0915\u094d\u091f\u0930 \u0928\u0935 \u0928\u093f\u092f\u0941\u0915\u094d\u0924 \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.8119955923588259,
+    "predicted_class": 1,
+    "confidence": 0.5797679190505521,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092f\u094c, \u0928\u0942\u0924\u0928 \u0938\u0930\u0915\u093e\u0930 \u0935\u093f\u0915\u093e\u0938 \u0915\u093e\u0930\u094d\u092f \u0905\u091b\u093f",
+    "entropy": 0.791778911086238,
+    "predicted_class": 1,
+    "confidence": 0.6244044336177207,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u092d\u094b\u0930\u0938\u093d \u0939\u0935\u093e\u0915 \u0926\u093f\u0936\u093e \u092c\u0926\u0932\u093f \u0917\u0947\u0932 \u091b\u0948\u0915",
+    "entropy": 0.7975731617442376,
+    "predicted_class": 2,
+    "confidence": 0.5935440385062116,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0938\u093e\u0902\u0938\u0926\u0915 \u092a\u094d\u0930\u092f\u093e\u0938\u0938\u093d \u0917\u093e\u092e\u092e\u0947\u0902 \u0905\u0938\u094d\u092a\u0924\u093e\u0932 \u092c\u0928\u0932",
+    "entropy": 0.709080555772855,
+    "predicted_class": 2,
+    "confidence": 0.694085455552695,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u092a\u094b\u0916\u0930\u093f \u092e\u0947 \u0915\u092e\u0932 \u092b\u0941\u0932\u093e\u0907\u0932 \u0905\u091b\u093f",
+    "entropy": 0.868257168385099,
+    "predicted_class": 1,
+    "confidence": 0.487445953701524,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0939\u0901, \u0928\u092f\u093e \u0938\u093e\u092e\u0941\u0926\u093e\u092f\u093f\u0915 \u092d\u0935\u0928 \u092c\u0928\u0932\u093e\u0938\u0901 \u092c\u0948\u0938\u093e\u0930\u0915 \u0938\u0941\u0935\u093f\u0927\u093e \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.7893154811640377,
+    "predicted_class": 1,
+    "confidence": 0.5741122226203108,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0924\u0901 \u0938\u0939\u0915\u093e\u0930\u0940 \u0938\u092e\u093f\u0924\u093f\u092e\u0947\u0902 \u0930\u091c\u093f\u0938\u094d\u091f\u094d\u0930\u0947\u0936\u0928 \u0915\u0930\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.8256402744260571,
+    "predicted_class": 1,
+    "confidence": 0.5368528240035093,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092f\u094c, \u0939\u092e\u0930 \u0916\u0947\u0924 \u092e\u0947\u0902 \u0906\u092e \u092c\u0921\u093c \u092e\u0940\u0920 \u091b\u0948\u0915",
+    "entropy": 0.8056640296491331,
+    "predicted_class": 1,
+    "confidence": 0.5094686492180792,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0928\u0935 \u0938\u093e\u092e\u0941\u0926\u093e\u092f\u093f\u0915 \u092d\u0935\u0928 \u092c\u0928\u0932\u093e\u0938\u0901 \u092c\u0948\u0938\u093e\u0930\u0915 \u0938\u0941\u0935\u093f\u0927\u093e \u092d\u093d \u0917\u0947\u0932\u093e\u0939",
+    "entropy": 0.7476911478788856,
+    "predicted_class": 1,
+    "confidence": 0.638639504507842,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0939\u092e\u093e\u0930 \u0938\u094d\u0915\u0942\u0932 \u0938\u094b\u092e\u0935\u093e\u0930 \u0938\u0901 \u0936\u0941\u0915\u094d\u0930\u0935\u093e\u0930 \u0916\u0941\u0932\u0948\u0924 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7758055450573882,
+    "predicted_class": 1,
+    "confidence": 0.49782063127252646,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0928\u0935 \u092c\u0940\u091c \u0938\u0901 \u092b\u0938\u0932 \u0926\u0941\u0917\u0941\u0928\u093e \u092d\u093d \u0917\u0947\u0932\u0939\u0941\u0901",
+    "entropy": 0.8077070853539514,
+    "predicted_class": 2,
+    "confidence": 0.5321701010182175,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0911\u0928\u0932\u093e\u0907\u0928 \u092a\u0922\u093c\u093e\u0908 \u0938\u093d \u092c\u091a\u094d\u091a\u093e \u0906\u0917\u0942 \u092c\u0922\u093c\u093f \u0930\u0939\u0932 \u0924 \u0905\u091b\u093f",
+    "entropy": 0.8523618183377745,
+    "predicted_class": 1,
+    "confidence": 0.637456191590788,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "i hate hicups!!!! why is there no cure for the common hicups???",
+    "entropy": 0.12548938828496672,
+    "predicted_class": 0,
+    "confidence": 0.9765297940900913,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u092e\u0948\u0925\u093f\u0932\u0940 \u092d\u093e\u0937\u093e \u0916\u0942\u092c \u092e\u0927\u0941\u0930 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7644846971549026,
+    "predicted_class": 2,
+    "confidence": 0.6319486398243657,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u092e\u0902\u0921\u0940\u092d\u0940\u0924\u0930 \u0909\u091a\u093f\u0924 \u0926\u093e\u092e \u092d\u0947\u091f\u0932\u093e\u0938\u0901 \u0915\u093f\u0938\u093e\u0928 \u0916\u0941\u0936 \u092d\u0947\u0932\u093e\u0939",
+    "entropy": 0.7080809938345625,
+    "predicted_class": 2,
+    "confidence": 0.7007876278604316,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u0926\u0942\u0927 \u0932\u0947\u092c\u093e\u0915 \u091b\u0928\u094d\u0939\u093f \u0906\u0907",
+    "entropy": 0.8444418983337225,
+    "predicted_class": 1,
+    "confidence": 0.5949060758608871,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u092c\u0948\u0902\u0915\u092d\u0940\u0924\u0930 \u092a\u0948\u0938\u093e \u091c\u092e\u093e \u0915\u0930\u092c\u093e\u0915 \u091b\u0925\u093f \u0906\u0907",
+    "entropy": 0.7497187930745985,
+    "predicted_class": 1,
+    "confidence": 0.6524102992005132,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0924\u0901 \u0928\u0942\u0924\u0928 \u091f\u094d\u0930\u0948\u0915\u094d\u091f\u0930 \u0916\u0930\u0940\u0926\u0932\u0939\u0941\u0901 \u090f\u0939\u093f \u092c\u0947\u0930",
+    "entropy": 0.8181414432071284,
+    "predicted_class": 2,
+    "confidence": 0.5218500099151698,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0949\u0932\u0938\u0901 \u0935\u093f\u0926\u0947\u0936\u092e\u0947\u0902 \u0930\u0939\u0932 \u092c\u0947\u091f\u093e\u0938\u0901 \u092c\u093e\u0924 \u092d\u093d \u0917\u0947\u0932",
+    "entropy": 0.66743897588239,
+    "predicted_class": 2,
+    "confidence": 0.7193811149547497,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "terminator:the sarah connor chronicles has been axed",
+    "entropy": 0.11909255197022892,
+    "predicted_class": 0,
+    "confidence": 0.9783612896841908,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0939\u0901, \u0906\u0915\u093e\u0936 \u092e\u0947 \u092c\u093e\u0926\u0932 \u0918\u0947\u0930\u093e\u092f\u0932 \u091b\u0925\u093f",
+    "entropy": 0.7959843247395123,
+    "predicted_class": 2,
+    "confidence": 0.5514509776140238,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@billsimpson19 another 2 hours",
+    "entropy": 0.06033410537810433,
+    "predicted_class": 0,
+    "confidence": 0.9904878368940683,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0939\u0901, \u091c\u0928\u0915\u092a\u0941\u0930 \u092d\u0940\u0924\u0930\u0902 \u0935\u093f\u0935\u093e\u0939\u092a\u0902\u091a\u092e\u0940 \u092e\u0928\u093e\u090f\u0932 \u0917\u0947\u0932\u093e\u0939",
+    "entropy": 0.766187985095847,
+    "predicted_class": 2,
+    "confidence": 0.6451278630067673,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "i have just sold my dignity to twitter and cannot figure out how to search for the person i signed up for.",
+    "entropy": 0.16961855055873476,
+    "predicted_class": 0,
+    "confidence": 0.9662958162601268,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "shower done",
+    "entropy": 0.20464306038705332,
+    "predicted_class": 0,
+    "confidence": 0.9575644039319389,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "@osimod oh, no, not again, too many doing this, they don't even know why hold on...",
+    "entropy": 0.0550566796079067,
+    "predicted_class": 0,
+    "confidence": 0.9912714405757359,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0926\u0942\u0927 \u0932\u0947\u092c\u093e\u0915 \u0905\u091b\u093f \u0906\u0907",
+    "entropy": 0.8298138045479888,
+    "predicted_class": 1,
+    "confidence": 0.5766250253646507,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0939\u092e \u0924 \u0938\u093e\u0901\u091d \u092d\u0940\u0924\u0930 \u091a\u093e\u0939 \u092a\u0940\u092c\u0948\u0924 \u091b\u0940",
+    "entropy": 0.7943166971690747,
+    "predicted_class": 1,
+    "confidence": 0.6391761655461711,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "on my way to training",
+    "entropy": 0.19368038321705627,
+    "predicted_class": 0,
+    "confidence": 0.9603148168028083,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u0941\u0928\u0942, \u0920\u0902\u0922 \u092d\u0940\u0924\u0930 \u0927\u0942\u092a \u092c\u0939\u0941\u0924 \u092e\u0940\u0920 \u0932\u0917\u0948\u0924 \u0924 \u091b\u0928\u093f",
+    "entropy": 0.7869108295685381,
+    "predicted_class": 2,
+    "confidence": 0.6445605831768455,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0917\u093e\u092e\u092e\u0947 \u092e\u0924\u0926\u093e\u0924\u093e \u0938\u0942\u091a\u0940 \u0905\u0926\u094d\u092f\u0924\u0928 \u091a\u0932\u093f \u0930\u0939\u0948\u0924 \u0905\u091b\u093f",
+    "entropy": 0.7937192994937798,
+    "predicted_class": 1,
+    "confidence": 0.6221691458826425,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "@kawaiiseth awr, sorry you're not feeling well babe. wish i could come make ya feel better",
+    "entropy": 0.15432436694835266,
+    "predicted_class": 0,
+    "confidence": 0.9701376984386904,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u092e\u094b\u0930\u093e \u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u092e\u0947 \u0928\u0942\u0924\u0928 \u0915\u092e\u094d\u092a\u094d\u092f\u0942\u091f\u0930 \u0932\u0948\u092c \u0916\u0941\u091c\u0932",
+    "entropy": 0.6776680338814944,
+    "predicted_class": 2,
+    "confidence": 0.689276040443729,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u092e\u093e\u0938\u093f\u0915 \u0916\u0930\u094d\u091a \u0924 \u0928\u093f\u0915\u093e\u0932\u092c \u092e\u0941\u0936\u094d\u0915\u093f\u0932 \u0939\u094b\u0907\u0924 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7987130759701526,
+    "predicted_class": 1,
+    "confidence": 0.5577644501868643,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0938\u093e\u092e\u093e-\u091a\u0915\u0947\u0935\u093e \u0924\u094d\u092f\u094b\u0939\u093e\u0930 \u090f\u0932\u093e\u0939 \u091b\u0925\u093f",
+    "entropy": 0.75594400019216,
+    "predicted_class": 1,
+    "confidence": 0.6912311134613117,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0939\u0901, \u0928\u092f\u093e \u0936\u093f\u0915\u094d\u0937\u0915 \u090f\u0939\u093f \u0938\u0924\u094d\u0930 \u0938\u0901 \u0906\u092c\u093f \u0917\u0947\u0932 \u091b\u0925\u093f",
+    "entropy": 0.7917854168675611,
+    "predicted_class": 2,
+    "confidence": 0.540555886512038,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "missing my boyfriend.",
+    "entropy": 0.1135057589518344,
+    "predicted_class": 0,
+    "confidence": 0.9796483070764537,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "going to sleep... still feel like shitt",
+    "entropy": 0.1124206200333725,
+    "predicted_class": 0,
+    "confidence": 0.9795143733448434,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "i really need my jeep back!",
+    "entropy": 0.15549853468759406,
+    "predicted_class": 0,
+    "confidence": 0.9693863005597227,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "ew its raining soo hard im loving lilyallen right noooow",
+    "entropy": 0.16320021667311824,
+    "predicted_class": 0,
+    "confidence": 0.9678432143896312,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0924\u0901 \u0928\u0935 \u0936\u093f\u0915\u094d\u0937\u0923 \u0938\u0924\u094d\u0930 \u0924 \u0905\u0917\u093f\u0932\u093e \u092e\u0939\u0940\u0928\u093e \u0936\u0941\u0930\u0942 \u0939\u0947\u0924\u0907",
+    "entropy": 0.7973684162487575,
+    "predicted_class": 1,
+    "confidence": 0.5503705940114176,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0917\u0930\u0940\u092c \u092c\u091a\u094d\u091a\u093e\u0915\u0947\u0901 \u092e\u0941\u092b\u094d\u0924 \u0936\u093f\u0915\u094d\u0937\u093e\u0915 \u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e \u092d\u093d \u0917\u0947\u0932\u093e\u0939",
+    "entropy": 0.8096724912401211,
+    "predicted_class": 2,
+    "confidence": 0.6150414411584318,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0924\u0901 \u092e\u0948\u0925\u093f\u0932\u0940 \u092d\u093e\u0937\u093e \u0916\u0942\u092c \u092e\u0927\u0941\u0930 \u0905\u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7951451552939716,
+    "predicted_class": 2,
+    "confidence": 0.544048403354815,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "before i turn off off my twitter chop!",
+    "entropy": 0.05911262422976417,
+    "predicted_class": 0,
+    "confidence": 0.990650687540873,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u092c\u0930\u0916\u093e \u0938\u092e\u092f \u092a\u0930 \u092d\u093d \u0917\u0947\u0932 \u0924\u0901 \u092b\u0938\u0932 \u092c\u0922\u093c\u093f\u092f\u093e \u0939\u094b\u092f\u0924",
+    "entropy": 0.8290370535430789,
+    "predicted_class": 1,
+    "confidence": 0.5445228271473902,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0938\u0902\u0938\u094d\u0915\u0943\u0924 \u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f\u092d\u0940\u0924\u0930 \u0928\u093e\u092e\u093e\u0902\u0915\u0928 \u091a\u0932\u093f \u0930\u0939\u0932 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.8315194351623145,
+    "predicted_class": 2,
+    "confidence": 0.4895933362910857,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0924\u0901 \u0935\u093f\u0926\u094d\u092f\u093e\u0932\u092f \u092d\u0940\u0924\u0930 \u0935\u093e\u0930\u094d\u0937\u093f\u0915\u094b\u0924\u094d\u0938\u0935 \u0905\u0917\u093f\u0932\u093e \u0938\u092a\u094d\u0924\u093e\u0939 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.8315975382203435,
+    "predicted_class": 2,
+    "confidence": 0.5030489823652171,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0938\u093e\u092e\u093e-\u091a\u0915\u0947\u0935\u093e \u0924\u094d\u092f\u094b\u0939\u093e\u0930 \u092a\u0939\u0941\u0901\u091a\u0932 \u0924 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7327358273330297,
+    "predicted_class": 1,
+    "confidence": 0.7193771635279297,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0916\u0947\u0924\u0915 \u092e\u0947\u0921\u093c \u092c\u093e\u0928\u094d\u0939\u092c \u092e\u0939\u0924\u094d\u0935\u092a\u0942\u0930\u094d\u0923 \u0905\u091b\u093f",
+    "entropy": 0.7299273433234108,
+    "predicted_class": 1,
+    "confidence": 0.6649981790142241,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "now on 104.1: kate bush. i'm so turning this on when i get home. my car is having trouble with the air today and it's so hot.",
+    "entropy": 0.14849614957864246,
+    "predicted_class": 0,
+    "confidence": 0.9716106042675441,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0938\u0930\u0915\u093e\u0930\u0940 \u0928\u093f\u0935\u093f\u0926\u093e\u0915 \u0938\u0942\u091a\u0928\u093e \u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 \u092d\u093d \u0917\u0947\u0932\u093e\u0939",
+    "entropy": 0.8131679694217295,
+    "predicted_class": 2,
+    "confidence": 0.5304530620547361,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u092d\u093e\u0908, \u092a\u0902\u091a\u093e\u092f\u0924\u0940 \u0930\u093e\u091c\u0935\u094d\u092f\u0935\u0938\u094d\u0925\u093e\u0938\u0947 \u0917\u093e\u092e\u092e\u0947\u0902 \u0938\u094d\u0935\u0936\u093e\u0938\u0928 \u092d\u0947\u0932",
+    "entropy": 0.8051270845563339,
+    "predicted_class": 2,
+    "confidence": 0.5957694449239471,
+    "difficulty_label": "hard"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0939\u092e\u093e\u0930 \u0926\u093e\u0926\u093e \u0917\u093e\u092e \u092e\u0947 \u0930\u0939\u0932 \u0905\u091b\u093f",
+    "entropy": 0.7993303256874014,
+    "predicted_class": 1,
+    "confidence": 0.626086479170597,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u0930\u0947, \u0939\u092e\u0930\u093e \u0917\u0941\u0930\u0941\u091c\u0940 \u0916\u0942\u092c \u0909\u0924\u094d\u0924\u092e \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.6389020946491001,
+    "predicted_class": 2,
+    "confidence": 0.7507908458177587,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0905\u092a\u0928 \u0926\u093e\u0926\u093e \u0917\u093e\u0901\u0935 \u092e\u0947\u0902 \u0930\u0939\u0948\u0924 \u091b\u0925\u093f",
+    "entropy": 0.6878099995847782,
+    "predicted_class": 1,
+    "confidence": 0.7437764579291638,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "going to bed. last night in tulsa can't wait to come back. got such a long day tomorrow. miss my mom and dad!!!!",
+    "entropy": 0.05676132341870217,
+    "predicted_class": 0,
+    "confidence": 0.9911524837186793,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "inactive fox is inactive. rain kept me in the den.",
+    "entropy": 0.07895941335296852,
+    "predicted_class": 0,
+    "confidence": 0.9867316435966956,
+    "difficulty_label": "easy"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0917\u093e\u092e-\u0918\u0930 \u092e\u0947\u0902 \u0915\u0928\u0947 \u091f\u093e\u0935\u0930 \u0932\u093e\u0917\u0932 \u091b\u0948\u0915",
+    "entropy": 0.7994273469839275,
+    "predicted_class": 1,
+    "confidence": 0.6009436019529452,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u092f\u094c, \u0928\u0935 \u0938\u0930\u0915\u093e\u0930 \u0935\u093f\u0915\u093e\u0938 \u0915\u093e\u0930\u094d\u092f \u0915\u093d \u0930\u0939\u0948 \u091b\u0948\u0915",
+    "entropy": 0.6565495208208305,
+    "predicted_class": 1,
+    "confidence": 0.7573237405970796,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "\u0926\u0947\u0916\u0942, \u0917\u093e\u092e\u092e\u0947 \u092e\u0924\u0926\u093e\u0924\u093e \u0938\u0942\u091a\u0940 \u0905\u0926\u094d\u092f\u0924\u0928 \u091a\u0932\u093f \u0930\u0939\u0932 \u091b\u0928\u094d\u0939\u093f",
+    "entropy": 0.7890916213931987,
+    "predicted_class": 1,
+    "confidence": 0.6230422629480658,
+    "difficulty_label": "medium"
+  },
+  {
+    "text": "in huntington beach.i paid for parking.",
+    "entropy": 0.09925747261679466,
+    "predicted_class": 0,
+    "confidence": 0.9826858895246136,
+    "difficulty_label": "easy"
+  }
+]

@@ -1,0 +1,541 @@
+[
+    {
+        "iteration": 1,
+        "accuracy": 0.5542952981793519,
+        "entropy": 0.9860093593597412,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            60,
+            24,
+            16
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.5505050504889798,
+        "entropy": 0.866701066493988,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            14,
+            80,
+            6
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.7703867947516473,
+        "entropy": 0.8546980023384094,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            42,
+            14,
+            44
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9251047055635843,
+        "entropy": 0.8614513278007507,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            31,
+            41,
+            28
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9238539238253889,
+        "entropy": 0.8219111561775208,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            28,
+            44,
+            28
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.926829268263416,
+        "entropy": 0.7585006952285767,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            28,
+            32,
+            40
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.979049405848314,
+        "entropy": 0.6853401064872742,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            25,
+            40,
+            35
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9871794871489287,
+        "entropy": 0.620334267616272,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            25,
+            42,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.5630773305892944,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.979049405848314,
+        "entropy": 0.4872126877307892,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            25,
+            40,
+            35
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9918699186683337,
+        "entropy": 0.45031166076660156,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            40,
+            34
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9918699186683337,
+        "entropy": 0.4229203462600708,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            40,
+            34
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.979049405848314,
+        "entropy": 0.4047863781452179,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            25,
+            40,
+            35
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9871794871489287,
+        "entropy": 0.37640342116355896,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            25,
+            42,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3721889555454254,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3553503155708313,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3453223705291748,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3382553160190582,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3318169414997101,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.32817432284355164,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.32675471901893616,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3263465464115143,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.33098354935646057,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3314778506755829,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.327353298664093,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3200263977050781,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3134203255176544,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.30951952934265137,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3075728714466095,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.30613285303115845,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3043839931488037,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.30489984154701233,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3057609498500824,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3061468303203583,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.30531713366508484,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3049941062927246,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3053494393825531,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3064953684806824,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.30809637904167175,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.30982908606529236,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3109091520309448,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3116355240345001,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.31195348501205444,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3117808997631073,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.31182318925857544,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.31221967935562134,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3130287528038025,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.3143320083618164,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    },
+    {
+        "iteration": 1,
+        "accuracy": 0.9999999999689484,
+        "entropy": 0.31619682908058167,
+        "separation": 0.9492742419242859,
+        "distribution": [
+            26,
+            41,
+            33
+        ]
+    }
+]

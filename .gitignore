@@ -1,0 +1,66 @@
+# Python and Environment
+**/__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+*.pyc
+
+# Local/IDE Configs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Data and Datasets (Everything under these directories)
+**/data/
+**/datasets/
+**/raw/
+**/processed/
+archive/
+tmp/
+temp/
+
+# Specific format exclusions anywhere
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pkl.gz
+*.pth
+*.pt
+*.bin
+*.joblib
+*.safetensors
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Push script and temporary tools
+push_batched.ps1
+scripts/temp_*
+
+# Metrics and Results (Excluding large dumps, keeping summaries)
+# Preserve specific evaluation results as per user rules
+!evaluation/metrics/*.png
+!evaluation/*.json
+!experiments/results/*.csv
+!experiments/results/*.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend
+**/node_modules/
+frontend/angular-dashboard/dist/
+frontend/angular-dashboard/.angular/

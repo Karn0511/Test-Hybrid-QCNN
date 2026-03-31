@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Data & Models (will be mounted via volume in production)
+data/
+datasets/
+models/
+quantum_intelligence.db
+experiments/
+
+# Other
+.git/
+.vscode/
+Project_Deep_dive.zip
