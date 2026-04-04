@@ -83,7 +83,7 @@ All three main commands tested and working ✅
 
 ### Command 1: Data Pipeline
 ```bash
-python scripts/run_data_phase.py
+python scripts/run_data.py
 ```
 **Status**: ✅ Working  
 **Output**: `datasets/processed/final_merged.csv` (52.4 MB)  
@@ -91,7 +91,7 @@ python scripts/run_data_phase.py
 
 ### Command 2: Experiments (M1–M12 Ablation)
 ```bash
-python scripts/train_all.py --mode active
+python experiments/runner.py
 ```
 **Status**: ✅ Working  
 **Output**: `evaluation/ablation_results.json` (416 KB)  
@@ -165,7 +165,7 @@ python scripts/run_eval.py
 └─────────────────────────────────────────────────────────────┘
 
 INPUT:
-  python scripts/run_data_phase.py
+  python scripts/run_data.py
   ↓
   core/data/loader.py
     • Load from HuggingFace
@@ -178,7 +178,7 @@ OUTPUT:
   ↓
 
 PROCESSING:
-  python scripts/train_all.py --mode active
+  python experiments/runner.py
   ↓
   experiments/runner_impl.py (M1–M12 loop)
     • Load config matrix (E1–E5 base configs)
@@ -221,7 +221,7 @@ All tests passing ✅
 
 ### Modifying Data Pipeline
 1. Edit only `core/data/loader.py`
-2. Regenerate data via the active data pipeline script in `scripts/`
+2. Regenerate data via `python scripts/run_data.py`
 3. Update documentation in `docs/dataset-pipeline.md`
 4. Never manually edit `datasets/processed/`
 
@@ -232,7 +232,7 @@ All tests passing ✅
 
 ### Debugging
 1. Check logs in `logs/` directory
-2. Use Python debugger on the active pipeline entry script in `scripts/`
+2. Use Python debugger: `python -m pdb scripts/run_data.py`
 3. All code is properly typed and documented
 
 ---

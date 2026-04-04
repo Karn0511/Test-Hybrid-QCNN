@@ -27,12 +27,15 @@ def compute_metrics(y_true: list[int], y_pred: list[int], y_prob: list[list[floa
         average="weighted",
         zero_division=0,
     )
+<<<<<<< HEAD
     macro_precision, macro_recall, macro_f1, _ = precision_recall_fscore_support(
         y_true_arr,
         y_pred_arr,
         average="macro",
         zero_division=0,
     )
+=======
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
 
     roc_auc = 0.0
     try:
@@ -50,9 +53,12 @@ def compute_metrics(y_true: list[int], y_pred: list[int], y_prob: list[list[floa
         "precision": float(precision),
         "recall": float(recall),
         "f1-score": float(f1),
+<<<<<<< HEAD
         "macro_precision": float(macro_precision),
         "macro_recall": float(macro_recall),
         "macro_f1": float(macro_f1),
+=======
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
         "roc_auc": float(roc_auc),
     }
 
@@ -73,7 +79,11 @@ def generate_confusion_matrix(y_true: list[int], y_pred: list[int], output_path:
 
 def generate_classification_report_extended(y_true: list[int], y_pred: list[int], labels: list[str]) -> str:
     """Addition: Centralized Classification Report."""
+<<<<<<< HEAD
     return classification_report(y_true, y_pred, target_names=labels, zero_division=0)
+=======
+    return classification_report(y_true, y_pred, target_names=labels)
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
 
 def check_model_divergence(preds_A: list[int], preds_B: list[int], threshold: float = 0.01) -> bool:
     """

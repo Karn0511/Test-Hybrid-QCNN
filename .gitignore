@@ -4,8 +4,10 @@ venv/
 env/
 
 # Python Cache
-__pycache__/
+**/__pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Heavy Data & Scientific Artifacts (Do not push to Git)
 *.npy
@@ -17,10 +19,21 @@ evaluation/latest/pulses/
 runs/
 *.log
 *.db
+*.joblib
+*.pkl
 
 # IDE Settings
 .vscode/
 .idea/
 
-# Local Reports
+# Local Reports & Metrics
 evaluation/latest/SENTINEL_REPORT.json
+!evaluation/metrics/*.png
+!evaluation/*.json
+
+# Jules Cloud Artifacts
+scripts/temp_*
+audit-nexus-loop-*
+
+# Frontend (If any)
+**/node_modules/

@@ -31,7 +31,11 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
+<<<<<<< HEAD
         python-version: '3.10'
+=======
+        python-version: '3.11'
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
         cache: 'pip'
 
     - name: Install Dependencies

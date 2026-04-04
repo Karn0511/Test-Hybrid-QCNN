@@ -1,6 +1,8 @@
 from __future__ import annotations
 import os
 import sys
+import json
+import time
 import hashlib
 from typing import Any
 from pathlib import Path
@@ -8,13 +10,12 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import torch._dynamo
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.linear_model import LogisticRegression
 from backend.models.hybrid_qcnn import HybridQCNN
 from backend.models.decision_fusion import MultiStreamFusion
 from backend.utils.logger import get_logger
-import json
-import time
 
 logger = get_logger(__name__)
 
@@ -96,7 +97,6 @@ class PyTorchEstimator:
             self.swa_model = torch.optim.swa_utils.AveragedModel(self.model)
             self.swa_scheduler = torch.optim.swa_utils.SWALR(optimizer, swa_lr=self.config.get("lr", 1e-3) * 0.1)
         except (TypeError, Exception):
-            # v5.6 Guard: Suppress technical copy warnings from the research UI
             self.swa_model = None
             self.swa_scheduler = None
         
@@ -108,14 +108,12 @@ class PyTorchEstimator:
             sampler = BalancedMultilingualSampler(languages, batch_size=self.config.get("batch_size", 32))
             loader = DataLoader(dataset, batch_size=self.config.get("batch_size", 32), sampler=sampler)
         else:
-            # Standard Shuffled Loader for Isolated Experts
             loader = DataLoader(dataset, batch_size=self.config.get("batch_size", 32), shuffle=True)
         
         if x_val is not None:
             val_dataset = OmegaMultilingualDataset(x_val, y_val, languages_val)
             val_loader = DataLoader(val_dataset, batch_size=self.config.get("batch_size", 32))
 
-        # broadcast warming
         history = []
         best_loss = float('inf')
         patience_counter = 0
@@ -125,35 +123,21 @@ class PyTorchEstimator:
         self.pulse_dir.mkdir(parents=True, exist_ok=True)
         l_prefix = languages[0] if (languages and len(languages)>0) else "expert"
         seed_val = self.config.get("seed", 0)
-        model_id = self.config.get("id", "qcnn").upper()
-        self.pulse_id = f"{l_prefix}_{model_id}_s{seed_val}"
+        m_id_str = self.config.get("id", "qcnn").upper()
+        self.pulse_id = f"{l_prefix}_{m_id_str}_s{seed_val}"
 
-        # Broadcast 'Warming' status immediately
         try:
             with open(self.pulse_dir / f"{self.pulse_id}.json", "w") as f:
-                json.dump({"model": self.config.get("id", "qcnn").upper(), "epoch": 0, "batch": 0, "total_batches": 1, "status": "Warming Up...", "timestamp": time.time()}, f)
+                json.dump({"model": m_id_str, "epoch": 0, "batch": 0, "total_batches": 1, "status": "Warming Up...", "timestamp": time.time()}, f)
         except Exception: pass
-
-        # v4.1 Mission Control: Total UI Divorce
-        is_worker = os.environ.get("JOBLIB_START_METHOD") is not None or "loky" in sys.modules
-        
-        # Elite Thread-Pinning for Worker Isolation
-        if is_worker:
-            # Overdrive: Saturate 32-core Xeon Gold 5218
-            cpu_count = os.cpu_count() or 1
-            threads = max(2, cpu_count // 4) 
-            torch.set_num_threads(threads)
-            os.environ["OMP_NUM_THREADS"] = str(threads)
-            os.environ["MKL_NUM_THREADS"] = str(threads)
 
         try:
             for epoch in range(self.epochs):
                 running_loss = 0.0
-                
-                # v4.3 Kinetic Pulse: Micro-batch tracking
                 for i, (inputs, targets, lang_ids) in enumerate(loader):
                     inputs, targets, lang_ids = inputs.to(self.device), targets.to(self.device), lang_ids.to(self.device)
                     
+                    optimizer.zero_grad()
                     with autocast(enabled=(self.device.type == 'cuda')):
                         outputs = self.model(inputs, lang_ids=lang_ids)
                         loss = criterion(outputs, targets) / accumulation_steps
@@ -175,20 +159,18 @@ class PyTorchEstimator:
                     
                     running_loss += loss.item() * accumulation_steps
                     
-                    # Pulse frequently for "Cinematic" visibility
-                    # Calculate Batch Accuracy
-                    preds = torch.argmax(outputs, dim=1)
-                    batch_acc = (preds == targets).float().mean().item()
-                    
-                    if i % 2 == 0:
+                    # Pulse for Overwatch dashboard
+                    if i % 5 == 0:
+                        preds = torch.argmax(outputs, dim=1)
+                        batch_acc = (preds == targets).float().mean().item()
                         try:
                             pulse_data = {
-                                "model": self.config.get("id", "qcnn").upper(),
+                                "model": m_id_str,
                                 "epoch": epoch + 1,
                                 "batch": i + 1,
                                 "total_batches": len(loader),
                                 "acc": batch_acc,
-                                "loss": loss.item(),
+                                "loss": loss.item() * accumulation_steps,
                                 "status": "Crunching...",
                                 "timestamp": time.time()
                             }
@@ -201,10 +183,10 @@ class PyTorchEstimator:
                 val_loss = 0.0
                 status = "Epoch Synced"
                 
-                # v5.6 Pulse Sync: Signal Evaluation start
+                # Evaluation pulse
                 try:
                     with open(self.pulse_dir / f"{self.pulse_id}.json", "w") as f:
-                        json.dump({"model": self.config.get("id", "qcnn").upper(), "epoch": epoch + 1, "batch": len(loader), "total_batches": len(loader), "status": "Evaluating...", "timestamp": time.time()}, f)
+                        json.dump({"model": m_id_str, "epoch": epoch + 1, "batch": len(loader), "total_batches": len(loader), "status": "Evaluating...", "timestamp": time.time()}, f)
                 except Exception: pass
 
                 if x_val is not None:
@@ -233,7 +215,6 @@ class PyTorchEstimator:
                         patience_counter += 1
                         if patience_counter >= self.patience:
                             status = "Early Stopping"
-                            logger.info("Expert Pulse: Epoch %d/%d | Loss: %.4f | Val: %.4f | %s", epoch+1, self.epochs, avg_loss, val_loss, status)
                             break
                             
                 logger.info("Expert Pulse: Epoch %d/%d | Loss: %.4f | Val: %.4f | %s", epoch+1, self.epochs, avg_loss, val_loss, status)
@@ -241,31 +222,22 @@ class PyTorchEstimator:
             logger.error(f"[CRITICAL-TRAINER-FAIL]: {e}")
             raise e
 
-        # Phase 10: Final Weight Synchronization (v35.6 Fail-Safe)
+        # Final SWA Sync
         try:
             if self.swa_model is not None:
-                logger.info("[SWA-SYNC]: Finalizing weight averaging and synchronizing BN layers...")
+                logger.info("🧬 [SWA-SYNC]: Finalizing weight averaging...")
                 torch.optim.swa_utils.update_bn(loader, self.swa_model, device=self.device)
                 self.model = self.swa_model.module
-        except (RuntimeError, ValueError, Exception) as e:
-            logger.warning("[SWA-FAIL]: Weight synchronization failed (%s). Reverting to best checkpoint.", e)
-            if self.best_state:
-                self.model.load_state_dict(self.best_state)
+        except Exception as e:
+            logger.warning("⚠️ [SWA-FAIL]: %s", e)
+            if self.best_state: self.model.load_state_dict(self.best_state)
         
-        # [NEW]: Atomic Save Persistence
-            # v5.6 Pulse Save Sync
-            try:
-                with open(self.pulse_dir / f"{self.pulse_id}.json", "w") as f:
-                    json.dump({"model": self.config.get("id", "qcnn").upper(), "epoch": self.epochs, "batch": 1, "total_batches": 1, "status": "Saving Expert...", "timestamp": time.time()}, f)
-            except Exception: pass
-            
+        # Atomic Save
+        if self.config.get("save_model", True):
             target_path = Path(self.config.get("model_path", "models/best_model.pt"))
             target_path.parent.mkdir(parents=True, exist_ok=True)
-            tmp_path = target_path.with_suffix(".tmp")
-            torch.save(self.model.state_dict(), tmp_path)
-            if target_path.exists(): os.remove(target_path)
-            os.rename(tmp_path, target_path)
-            logger.info("[SOTA-SAVED]: Absolute persistent weights at %s", target_path)
+            torch.save(self.model.state_dict(), target_path)
+            logger.info("💾 [SOTA-SAVED]: Weights at %s", target_path)
 
     def predict(self, x_test: np.ndarray, lang_ids: np.ndarray | None = None) -> np.ndarray:
         probs = self.predict_proba(x_test, lang_ids=lang_ids)
@@ -274,8 +246,6 @@ class PyTorchEstimator:
     def predict_proba(self, x_test: np.ndarray, lang_ids: np.ndarray | None = None) -> np.ndarray:
         self.model.eval()
         device = self.device
-        
-        # v35.8 Xeon-Turbo: Use a massive batch size for prediction to saturate 32 cores
         batch_size = self.config.get("eval_batch_size", 512) 
         
         x_tensor = torch.from_numpy(x_test).to(device)
@@ -285,7 +255,7 @@ class PyTorchEstimator:
         else:
             dataset = TensorDataset(x_tensor)
             
-        loader = DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=0)
+        loader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
         
         all_probs = []
         with torch.no_grad():
@@ -303,11 +273,11 @@ class PyTorchEstimator:
         self.model.eval()
 
 class SklearnEstimator:
-    """Standardized Sklearn Wrapper for classical baselines."""
+    """Standardized Sklearn Wrapper."""
     def __init__(self, model, config: dict):
         self.model = model
         self.config = config
-        self.param_count = 0 # Not applicable
+        self.param_count = 0
 
     def fit(self, x_train, y_train, **kwargs):
         self.model.fit(x_train, y_train)
@@ -323,7 +293,6 @@ def build_model(config: dict, seed: int = 42) -> PyTorchEstimator | SklearnEstim
     torch.manual_seed(seed)
     model_id = config.get("id", "qcnn").lower()
     
-    # v35.7 Elite Switch: Use Boolean flags instead of substring matching
     if config.get("use_fusion", False):
         raw_model = MultiStreamFusion(
             input_dim=config.get("input_dim", 384),
@@ -333,7 +302,7 @@ def build_model(config: dict, seed: int = 42) -> PyTorchEstimator | SklearnEstim
         )
         return PyTorchEstimator(raw_model, config)
     
-    if config.get("use_qcnn", False):
+    if config.get("use_qcnn", False) or "qcnn" in model_id:
         from backend.models.hybrid_qcnn import HybridQCNN
         raw_model = HybridQCNN(
             input_dim=config.get("input_dim", 384),
@@ -344,14 +313,15 @@ def build_model(config: dict, seed: int = 42) -> PyTorchEstimator | SklearnEstim
         )
         return PyTorchEstimator(raw_model, config)
     
+    # Jules Baselines
+    elif "vqc" in model_id:
+        from backend.models.market_baselines import MarketVQC_BERT
+        return PyTorchEstimator(MarketVQC_BERT(n_qubits=8), config)
+    elif "qvae" in model_id:
+        from backend.models.market_baselines import MarketQVAE_QCNN_2024
+        return PyTorchEstimator(MarketQVAE_QCNN_2024(n_qubits=6), config)
+    elif "qlstm" in model_id:
+        from backend.models.market_baselines import MarketQLSTM_2023
+        return PyTorchEstimator(MarketQLSTM_2023(n_qubits=4), config)
     else:
-        # Default to the 8-qubit Hybrid QCNN for the Research SOTA (v5.0)
-        from backend.models.hybrid_qcnn import HybridQCNN
-        raw_model = HybridQCNN(
-            input_dim=config.get("input_dim", 384),
-            n_classes=config.get("num_classes", 3),
-            n_qubits=config.get("n_qubits", 8),
-            n_layers=config.get("n_layers", 6),
-            dropout=config.get("dropout", 0.2)
-        )
-        return PyTorchEstimator(raw_model, config)
+        return SklearnEstimator(LogisticRegression(max_iter=1000), config)

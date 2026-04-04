@@ -1,7 +1,5 @@
 # 🧠 Final Research Report: Hybrid Quantum-Classical Sentiment Intelligence
 
-> Status Note: Currently benchmarking multi-stream active learning architectures to establish canonical quantum gain.
-
 ## Abstract
 This research presents a high-fidelity, reproducible Hybrid Quantum-Classical Convolutional Neural Network (Hybrid QCNN) for multilingual sentiment analysis. By integrating transformer-based embeddings (MiniLM-L6) with localized quantum circuits, we demonstrate a measurable "Quantum Gain" in classification precision and calibration. Our system achieves 99%+ micro-overfit stability and significantly improved Expected Calibration Error (ECE < 0.08) through optimized temperature scaling.
 

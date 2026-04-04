@@ -1,7 +1,7 @@
 # Runner Hang Fix Report
 
 **Date**: March 26, 2026  
-**Issue**: Legacy experiment command was hanging/freezing during execution  
+**Issue**: `python experiments/runner.py` was hanging/freezing during execution  
 **Status**: ✅ FIXED & VERIFIED
 
 ## Problem Analysis
@@ -83,13 +83,13 @@ for idx, cfg in enumerate(configs, start=1):
 
 **1. Data Pipeline**
 ```bash
-python scripts/run_data_phase.py
+python scripts/run_data.py
 → data_ready=datasets\processed\final_merged.csv ✓
 ```
 
 **2. Experiments (M1–M12)**
 ```bash
-python scripts/train_all.py --mode active
+python experiments/runner.py
 → evaluation/ablation_results.json (12 runs completed) ✓
 [Shows progress for all 12 configs]
 ```

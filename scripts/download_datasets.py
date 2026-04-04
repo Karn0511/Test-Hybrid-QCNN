@@ -46,7 +46,11 @@ def download_english():
     if not (ENGLISH_DIR / "imdb.csv").exists():
         try:
             logger.info("Fetching IMDB...")
+<<<<<<< HEAD
             ds = load_dataset("stanfordnlp/imdb", split="train", trust_remote_code=True)
+=======
+            ds = load_dataset("stanfordnlp/imdb", split="train")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
             df = ds.to_pandas()
             # IMDB: text, label (0=Neg, 1=Pos -> Map to 0, 2)
             df = df.rename(columns={"text": "text", "label": "label"})
@@ -60,7 +64,11 @@ def download_english():
     if not (ENGLISH_DIR / "amazon_polarity.csv").exists():
         try:
             logger.info("Fetching Amazon Polarity...")
+<<<<<<< HEAD
             ds = load_dataset("amazon_polarity", split="train", trust_remote_code=True)
+=======
+            ds = load_dataset("amazon_polarity", split="train")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
             limit = CI_LIMIT if IS_CI else min(100_000, len(ds))
             df = ds.to_pandas().sample(n=limit, random_state=42)
             # Amazon: label (1=Neg, 2=Pos -> Map to 0, 2), content
@@ -76,7 +84,11 @@ def download_english():
     if not (ENGLISH_DIR / "yelp_polarity.csv").exists():
         try:
             logger.info("Fetching Yelp Polarity...")
+<<<<<<< HEAD
             ds = load_dataset("yelp_polarity", split="train", trust_remote_code=True)
+=======
+            ds = load_dataset("yelp_polarity", split="train")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
             limit = CI_LIMIT if IS_CI else min(100_000, len(ds))
             df = ds.to_pandas().sample(n=limit, random_state=42)
             # Yelp: label (1=Neg, 2=Pos -> Map to 0, 2), text
@@ -91,7 +103,11 @@ def download_english():
     if not (ENGLISH_DIR / "tweet_eval.csv").exists():
         try:
             logger.info("Fetching Tweet Eval (Sentiment)...")
+<<<<<<< HEAD
             ds = load_dataset("tweet_eval", "sentiment", split="train", trust_remote_code=True)
+=======
+            ds = load_dataset("tweet_eval", "sentiment", split="train")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
             df = ds.to_pandas()
             # TweetEval: label (0=Neg, 1=Neu, 2=Pos -> Map to 0, 1, 2)
             df = df.rename(columns={"text": "text", "label": "label"})
@@ -107,7 +123,11 @@ def download_hindi():
     # 1. IndicSentiment (Hindi)
     try:
         logger.info("Fetching IndicSentiment (Hindi)...")
+<<<<<<< HEAD
         ds = load_dataset("ai4bharat/IndicSentiment", "translation-hi", trust_remote_code=True)
+=======
+        ds = load_dataset("ai4bharat/IndicSentiment", "translation-hi")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
         all_dfs = [part.to_pandas() for part in ds.values()]
         df = pd.concat(all_dfs, ignore_index=True)
         if IS_CI:
@@ -121,7 +141,11 @@ def download_hindi():
     try:
         logger.info("Fetching 100k Code-Mixed Hindi Sentiment...")
         # Path: md-nishat-008/Code-Mixed-Sentiment-Analysis-Dataset
+<<<<<<< HEAD
         ds = load_dataset("md-nishat-008/Code-Mixed-Sentiment-Analysis-Dataset", trust_remote_code=True)
+=======
+        ds = load_dataset("md-nishat-008/Code-Mixed-Sentiment-Analysis-Dataset")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
         all_dfs = [part.to_pandas() for part in ds.values()]
         df = pd.concat(all_dfs, ignore_index=True)
         if IS_CI:
@@ -136,7 +160,11 @@ def download_hindi():
     # 3. Tweet Sentiment Multilingual (Hindi)
     try:
         logger.info("Fetching Tweet Sentiment Multilingual (Hindi)...")
+<<<<<<< HEAD
         ds = load_dataset("cardiffnlp/tweet_sentiment_multilingual", "hindi", split="train", trust_remote_code=True)
+=======
+        ds = load_dataset("cardiffnlp/tweet_sentiment_multilingual", "hindi", split="train")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
         df = ds.to_pandas()
         df.to_csv(HINDI_DIR / "tweet_hindi.csv", index=False)
         logger.info(f"Tweet Hindi saved: {len(df)} samples.")
@@ -149,7 +177,11 @@ def download_multilingual():
     # 1. Tweet Sentiment Multilingual
     try:
         logger.info("Fetching CardiffNLP Multilingual Sentiment...")
+<<<<<<< HEAD
         ds = load_dataset("cardiffnlp/tweet_sentiment_multilingual", "all", split="train", trust_remote_code=True)
+=======
+        ds = load_dataset("cardiffnlp/tweet_sentiment_multilingual", "all", split="train")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
         df = ds.to_pandas()
         df.to_csv(MULTILINGUAL_DIR / "tweet_multilingual.csv", index=False)
     except Exception as e:
@@ -158,7 +190,11 @@ def download_multilingual():
     # 2. Go Emotions (Optional expansion)
     try:
         logger.info("Fetching Go Emotions...")
+<<<<<<< HEAD
         ds = load_dataset("go_emotions", split="train", trust_remote_code=True)
+=======
+        ds = load_dataset("go_emotions", split="train")
+>>>>>>> origin/audit-nexus-loop-5782051324856096483
         df = ds.to_pandas()
         df.to_csv(MULTILINGUAL_DIR / "go_emotions.csv", index=False)
     except Exception as e:

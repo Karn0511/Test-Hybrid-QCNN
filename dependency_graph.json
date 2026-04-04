@@ -7,11 +7,115 @@
         ]
     },
     "backend.__init__": {
-        "path": "backend\\__init__.py",
+        "path": "backend/__init__.py",
         "depends_on": []
     },
+    "configs.validator": {
+        "path": "configs/validator.py",
+        "depends_on": [
+            "backend.utils.logger"
+        ]
+    },
+    "evaluation.generate_new_plots": {
+        "path": "evaluation/generate_new_plots.py",
+        "depends_on": []
+    },
+    "evaluation.plot_benchmarks": {
+        "path": "evaluation/plot_benchmarks.py",
+        "depends_on": [
+            "backend.utils.logger"
+        ]
+    },
+    "evaluation.__init__": {
+        "path": "evaluation/__init__.py",
+        "depends_on": []
+    },
+    "evaluation.visualizer": {
+        "path": "evaluation/visualizer.py",
+        "depends_on": []
+    },
+    "scripts.generate_v31_global_dashboard": {
+        "path": "scripts/generate_v31_global_dashboard.py",
+        "depends_on": []
+    },
+    "scripts.download_datasets": {
+        "path": "scripts/download_datasets.py",
+        "depends_on": []
+    },
+    "scripts.data_harvester": {
+        "path": "scripts/data_harvester.py",
+        "depends_on": [
+            "backend.utils.logger"
+        ]
+    },
+    "scripts.generate_advanced_metrics": {
+        "path": "scripts/generate_advanced_metrics.py",
+        "depends_on": []
+    },
+    "scripts.generate_dependency_graph": {
+        "path": "scripts/generate_dependency_graph.py",
+        "depends_on": []
+    },
+    "scripts.global_comparison": {
+        "path": "scripts/global_comparison.py",
+        "depends_on": [
+            "backend.training.train",
+            "backend.utils.logger"
+        ]
+    },
+    "scripts.single_batch_overfit": {
+        "path": "scripts/single_batch_overfit.py",
+        "depends_on": [
+            "backend.data.loader",
+            "backend.models.hybrid_qcnn",
+            "backend.features.embedding"
+        ]
+    },
+    "scripts.sanity_shuffle_test": {
+        "path": "scripts/sanity_shuffle_test.py",
+        "depends_on": [
+            "backend.data.loader",
+            "backend.models.hybrid_qcnn",
+            "backend.features.embedding"
+        ]
+    },
+    "scripts.generate_v30_elite_render": {
+        "path": "scripts/generate_v30_elite_render.py",
+        "depends_on": []
+    },
+    "scripts.generate_readme_plots": {
+        "path": "scripts/generate_readme_plots.py",
+        "depends_on": []
+    },
+    "scripts.micro_overfit_test": {
+        "path": "scripts/micro_overfit_test.py",
+        "depends_on": [
+            "backend.data.loader",
+            "backend.models.hybrid_qcnn",
+            "backend.features.embedding"
+        ]
+    },
+    "scripts.maithili_extractor": {
+        "path": "scripts/maithili_extractor.py",
+        "depends_on": []
+    },
+    "tests.test_imports": {
+        "path": "tests/test_imports.py",
+        "depends_on": [
+            "backend.models.hybrid_qcnn",
+            "backend.training.train",
+            "backend.data.loader",
+            "backend.features.embedding"
+        ]
+    },
+    "backend.debug.gradient_check": {
+        "path": "backend/debug/gradient_check.py",
+        "depends_on": [
+            "backend.utils.logger"
+        ]
+    },
     "backend.api.main": {
-        "path": "backend\\api\\main.py",
+        "path": "backend/api/main.py",
         "depends_on": [
             "backend.models.standardized",
             "backend.features.embedding",
@@ -19,95 +123,146 @@
             "backend.utils.logger"
         ]
     },
-    "backend.data.dataset_guard": {
-        "path": "backend\\data\\dataset_guard.py",
-        "depends_on": [
-            "backend.utils.logger"
-        ]
-    },
-    "backend.data.loader": {
-        "path": "backend\\data\\loader.py",
-        "depends_on": [
-            "backend.utils.hf_datasets_import",
-            "backend.utils.logger"
-        ]
-    },
-    "backend.data.__init__": {
-        "path": "backend\\data\\__init__.py",
+    "backend.utils.logger": {
+        "path": "backend/utils/logger.py",
         "depends_on": []
     },
-    "backend.debug.gradient_check": {
-        "path": "backend\\debug\\gradient_check.py",
+    "backend.utils.__init__": {
+        "path": "backend/utils/__init__.py",
+        "depends_on": []
+    },
+    "backend.utils.config": {
+        "path": "backend/utils/config.py",
+        "depends_on": []
+    },
+    "backend.utils.hf_datasets_import": {
+        "path": "backend/utils/hf_datasets_import.py",
+        "depends_on": []
+    },
+    "backend.utils.hardware_detection": {
+        "path": "backend/utils/hardware_detection.py",
+        "depends_on": []
+    },
+    "backend.evaluation.interpretability": {
+        "path": "backend/evaluation/interpretability.py",
         "depends_on": [
             "backend.utils.logger"
         ]
     },
     "backend.evaluation.calibration": {
-        "path": "backend\\evaluation\\calibration.py",
-        "depends_on": [
-            "backend.utils.logger"
-        ]
-    },
-    "backend.evaluation.core": {
-        "path": "backend\\evaluation\\core.py",
-        "depends_on": [
-            "backend.utils.logger"
-        ]
-    },
-    "backend.evaluation.elite_analytics": {
-        "path": "backend\\evaluation\\elite_analytics.py",
-        "depends_on": [
-            "backend.utils.logger"
-        ]
-    },
-    "backend.evaluation.error_clustering": {
-        "path": "backend\\evaluation\\error_clustering.py",
-        "depends_on": [
-            "backend.utils.logger"
-        ]
-    },
-    "backend.evaluation.failure_analyzer": {
-        "path": "backend\\evaluation\\failure_analyzer.py",
-        "depends_on": [
-            "backend.utils.logger"
-        ]
-    },
-    "backend.evaluation.interpretability": {
-        "path": "backend\\evaluation\\interpretability.py",
+        "path": "backend/evaluation/calibration.py",
         "depends_on": [
             "backend.utils.logger"
         ]
     },
     "backend.evaluation.profiling": {
-        "path": "backend\\evaluation\\profiling.py",
+        "path": "backend/evaluation/profiling.py",
         "depends_on": [
             "backend.utils.logger"
         ]
     },
-    "backend.features.data_loader": {
-        "path": "backend\\features\\data_loader.py",
+    "backend.evaluation.error_clustering": {
+        "path": "backend/evaluation/error_clustering.py",
         "depends_on": [
             "backend.utils.logger"
         ]
     },
-    "backend.features.embedding": {
-        "path": "backend\\features\\embedding.py",
+    "backend.evaluation.core": {
+        "path": "backend/evaluation/core.py",
         "depends_on": [
             "backend.utils.logger"
         ]
     },
-    "backend.features.__init__": {
-        "path": "backend\\features\\__init__.py",
+    "backend.evaluation.failure_analyzer": {
+        "path": "backend/evaluation/failure_analyzer.py",
+        "depends_on": [
+            "backend.utils.logger"
+        ]
+    },
+    "backend.evaluation.elite_analytics": {
+        "path": "backend/evaluation/elite_analytics.py",
+        "depends_on": [
+            "backend.utils.logger"
+        ]
+    },
+    "backend.quantum.__init__": {
+        "path": "backend/quantum/__init__.py",
+        "depends_on": []
+    },
+    "backend.quantum.layers": {
+        "path": "backend/quantum/layers.py",
+        "depends_on": [
+            "backend.utils.logger"
+        ]
+    },
+    "backend.models.market_baselines": {
+        "path": "backend/models/market_baselines.py",
+        "depends_on": [
+            "backend.quantum.layers",
+            "backend.utils.logger"
+        ]
+    },
+    "backend.models.embedding_engine": {
+        "path": "backend/models/embedding_engine.py",
+        "depends_on": [
+            "backend.utils.logger",
+            "backend.utils.config"
+        ]
+    },
+    "backend.models.classical_models": {
+        "path": "backend/models/classical_models.py",
+        "depends_on": []
+    },
+    "backend.models.transformer_model": {
+        "path": "backend/models/transformer_model.py",
+        "depends_on": [
+            "backend.evaluation.metrics",
+            "backend.utils.hf_datasets_import"
+        ]
+    },
+    "backend.models.standardized": {
+        "path": "backend/models/standardized.py",
+        "depends_on": [
+            "backend.models.hybrid_qcnn",
+            "backend.models.decision_fusion",
+            "backend.utils.logger",
+            "backend.training.self_learner",
+            "backend.data.loader",
+            "backend.models.market_baselines"
+        ]
+    },
+    "backend.models.__init__": {
+        "path": "backend/models/__init__.py",
+        "depends_on": []
+    },
+    "backend.models.hybrid_qcnn": {
+        "path": "backend/models/hybrid_qcnn.py",
+        "depends_on": [
+            "backend.quantum.layers",
+            "backend.utils.logger"
+        ]
+    },
+    "backend.models.model_registry": {
+        "path": "backend/models/model_registry.py",
+        "depends_on": [
+            "backend.models.hybrid_qcnn",
+            "backend.models.embedding_engine",
+            "backend.utils.logger",
+            "backend.utils.config"
+        ]
+    },
+    "backend.inference.__init__": {
+        "path": "backend/inference/__init__.py",
         "depends_on": []
     },
     "backend.inference.batch_predictor": {
-        "path": "backend\\inference\\batch_predictor.py",
+        "path": "backend/inference/batch_predictor.py",
         "depends_on": [
             "backend.inference.predictor"
         ]
     },
     "backend.inference.model_registry": {
-        "path": "backend\\inference\\model_registry.py",
+        "path": "backend/inference/model_registry.py",
         "depends_on": [
             "backend.models.embedding_engine",
             "backend.models.hybrid_qcnn",
@@ -117,116 +272,31 @@
         ]
     },
     "backend.inference.predictor": {
-        "path": "backend\\inference\\predictor.py",
+        "path": "backend/inference/predictor.py",
         "depends_on": [
             "backend.inference.model_registry",
             "backend.preprocessing.text_cleaning",
             "backend.utils.hardware_detection"
         ]
     },
-    "backend.inference.__init__": {
-        "path": "backend\\inference\\__init__.py",
-        "depends_on": []
-    },
-    "backend.models.classical_models": {
-        "path": "backend\\models\\classical_models.py",
-        "depends_on": []
-    },
-    "backend.models.decision_fusion": {
-        "path": "backend\\models\\decision_fusion.py",
-        "depends_on": [
-            "backend.models.hybrid_qcnn",
-            "backend.utils.logger"
-        ]
-    },
-    "backend.models.embedding_engine": {
-        "path": "backend\\models\\embedding_engine.py",
-        "depends_on": [
-            "backend.utils.logger",
-            "backend.utils.config"
-        ]
-    },
-    "backend.models.hybrid_qcnn": {
-        "path": "backend\\models\\hybrid_qcnn.py",
-        "depends_on": [
-            "backend.quantum.layers",
-            "backend.quantum.tiered_adaptation",
-            "backend.utils.logger"
-        ]
-    },
-    "backend.models.market_baselines": {
-        "path": "backend\\models\\market_baselines.py",
-        "depends_on": [
-            "backend.quantum.layers",
-            "backend.utils.logger"
-        ]
-    },
-    "backend.models.model_registry": {
-        "path": "backend\\models\\model_registry.py",
-        "depends_on": [
-            "backend.models.hybrid_qcnn",
-            "backend.models.embedding_engine",
-            "backend.utils.logger",
-            "backend.utils.config"
-        ]
-    },
-    "backend.models.standardized": {
-        "path": "backend\\models\\standardized.py",
-        "depends_on": [
-            "backend.models.hybrid_qcnn",
-            "backend.models.decision_fusion",
-            "backend.utils.logger",
-            "backend.training.self_learner",
-            "backend.data.loader"
-        ]
-    },
-    "backend.models.transformer_model": {
-        "path": "backend\\models\\transformer_model.py",
-        "depends_on": [
-            "backend.evaluation.metrics",
-            "backend.utils.hf_datasets_import"
-        ]
-    },
-    "backend.models.__init__": {
-        "path": "backend\\models\\__init__.py",
-        "depends_on": []
-    },
-    "backend.quantum.layers": {
-        "path": "backend\\quantum\\layers.py",
+    "backend.features.embedding": {
+        "path": "backend/features/embedding.py",
         "depends_on": [
             "backend.utils.logger"
         ]
     },
-    "backend.quantum.tiered_adaptation": {
-        "path": "backend\\quantum\\tiered_adaptation.py",
-        "depends_on": []
-    },
-    "backend.quantum.__init__": {
-        "path": "backend\\quantum\\__init__.py",
+    "backend.features.__init__": {
+        "path": "backend/features/__init__.py",
         "depends_on": []
     },
     "backend.training.hard_negative_miner": {
-        "path": "backend\\training\\hard_negative_miner.py",
+        "path": "backend/training/hard_negative_miner.py",
         "depends_on": [
             "backend.utils.logger"
         ]
     },
-    "backend.training.manager": {
-        "path": "backend\\training\\manager.py",
-        "depends_on": []
-    },
-    "backend.training.orchestrator": {
-        "path": "backend\\training\\orchestrator.py",
-        "depends_on": [
-            "backend.utils.logger",
-            "backend.models.standardized",
-            "backend.training.self_learner",
-            "backend.features.embedding",
-            "backend.data.loader"
-        ]
-    },
     "backend.training.self_learner": {
-        "path": "backend\\training\\self_learner.py",
+        "path": "backend/training/self_learner.py",
         "depends_on": [
             "backend.utils.logger",
             "backend.training.hard_negative_miner",
@@ -234,157 +304,36 @@
             "backend.models.standardized"
         ]
     },
-    "backend.training.sentinel_watchdog": {
-        "path": "backend\\training\\sentinel_watchdog.py",
-        "depends_on": []
-    },
     "backend.training.__init__": {
-        "path": "backend\\training\\__init__.py",
+        "path": "backend/training/__init__.py",
         "depends_on": []
     },
-    "backend.utils.config": {
-        "path": "backend\\utils\\config.py",
-        "depends_on": []
-    },
-    "backend.utils.hardware_detection": {
-        "path": "backend\\utils\\hardware_detection.py",
-        "depends_on": []
-    },
-    "backend.utils.hf_datasets_import": {
-        "path": "backend\\utils\\hf_datasets_import.py",
-        "depends_on": []
-    },
-    "backend.utils.logger": {
-        "path": "backend\\utils\\logger.py",
-        "depends_on": []
-    },
-    "backend.utils.__init__": {
-        "path": "backend\\utils\\__init__.py",
-        "depends_on": []
-    },
-    "configs.validator": {
-        "path": "configs\\validator.py",
+    "backend.training.train_v2": {
+        "path": "backend/training/train_v2.py",
         "depends_on": [
-            "backend.utils.logger"
+            "backend.utils.logger",
+            "backend.features.data_loader",
+            "backend.models.standardized"
         ]
     },
-    "evaluation.generate_new_plots": {
-        "path": "evaluation\\generate_new_plots.py",
-        "depends_on": []
+    "backend.training.train": {
+        "path": "backend/training/train.py",
+        "depends_on": [
+            "backend.data.loader",
+            "backend.data.dataset_guard",
+            "backend.features.embedding",
+            "backend.models.standardized",
+            "backend.utils.logger",
+            "backend.evaluation.calibration",
+            "backend.evaluation.failure_analyzer"
+        ]
     },
-    "evaluation.plot_benchmarks": {
-        "path": "evaluation\\plot_benchmarks.py",
-        "depends_on": []
-    },
-    "evaluation.visualizer": {
-        "path": "evaluation\\visualizer.py",
-        "depends_on": []
-    },
-    "evaluation.__init__": {
-        "path": "evaluation\\__init__.py",
-        "depends_on": []
-    },
-    "evaluation.archive.ultra_fast_eval_33pct.plots.__init__": {
-        "path": "evaluation\\archive\\ultra_fast_eval_33pct\\plots\\__init__.py",
+    "evaluation.metrics.__init__": {
+        "path": "evaluation/metrics/__init__.py",
         "depends_on": []
     },
     "evaluation.metrics.evaluator": {
-        "path": "evaluation\\metrics\\evaluator.py",
+        "path": "evaluation/metrics/evaluator.py",
         "depends_on": []
-    },
-    "evaluation.metrics.__init__": {
-        "path": "evaluation\\metrics\\__init__.py",
-        "depends_on": []
-    },
-    "scripts.build_massive_datasets": {
-        "path": "scripts\\build_massive_datasets.py",
-        "depends_on": []
-    },
-    "scripts.data_harvester": {
-        "path": "scripts\\data_harvester.py",
-        "depends_on": []
-    },
-    "scripts.download_datasets": {
-        "path": "scripts\\download_datasets.py",
-        "depends_on": []
-    },
-    "scripts.evaluate_model": {
-        "path": "scripts\\evaluate_model.py",
-        "depends_on": [
-            "backend.models.standardized",
-            "backend.data.loader",
-            "backend.evaluation.calibration",
-            "backend.utils.logger"
-        ]
-    },
-    "scripts.expand_datasets_to_2m": {
-        "path": "scripts\\expand_datasets_to_2m.py",
-        "depends_on": []
-    },
-    "scripts.generate_dependency_graph": {
-        "path": "scripts\\generate_dependency_graph.py",
-        "depends_on": []
-    },
-    "scripts.generate_readme_plots": {
-        "path": "scripts\\generate_readme_plots.py",
-        "depends_on": []
-    },
-    "scripts.generate_v31_global_dashboard": {
-        "path": "scripts\\generate_v31_global_dashboard.py",
-        "depends_on": []
-    },
-    "scripts.global_comparison": {
-        "path": "scripts\\global_comparison.py",
-        "depends_on": [
-            "backend.training.train",
-            "backend.utils.logger"
-        ]
-    },
-    "scripts.kaggle_benchmark": {
-        "path": "scripts\\kaggle_benchmark.py",
-        "depends_on": [
-            "backend.models.standardized",
-            "backend.features.embedding",
-            "backend.utils.logger"
-        ]
-    },
-    "scripts.maithili_extractor": {
-        "path": "scripts\\maithili_extractor.py",
-        "depends_on": []
-    },
-    "scripts.research_benchmark": {
-        "path": "scripts\\research_benchmark.py",
-        "depends_on": []
-    },
-    "scripts.sentinel_diagnostic": {
-        "path": "scripts\\sentinel_diagnostic.py",
-        "depends_on": [
-            "backend.data.loader",
-            "backend.models.hybrid_qcnn",
-            "backend.utils.logger",
-            "backend.data.dataset_guard"
-        ]
-    },
-    "scripts.track_reproducibility": {
-        "path": "scripts\\track_reproducibility.py",
-        "depends_on": [
-            "backend.utils.logger"
-        ]
-    },
-    "tests.test_behavior": {
-        "path": "tests\\test_behavior.py",
-        "depends_on": [
-            "backend.models.hybrid_qcnn",
-            "backend.training.train_v2"
-        ]
-    },
-    "tests.test_imports": {
-        "path": "tests\\test_imports.py",
-        "depends_on": [
-            "backend.models.hybrid_qcnn",
-            "backend.training.train",
-            "backend.data.loader",
-            "backend.features.embedding"
-        ]
     }
 }

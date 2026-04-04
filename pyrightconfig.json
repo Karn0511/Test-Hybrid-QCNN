@@ -1,7 +1,6 @@
 {
   "include": ["backend", "scripts"],
   "extraPaths": ["."],
-  "venvPath": "D:/Softwares",
-  "venv": "ml_env",
+  "venvPath": ".",
   "reportMissingImports": "warning"
 }
