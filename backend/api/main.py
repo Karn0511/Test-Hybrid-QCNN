@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import torch
 import numpy as np
 from backend.models.standardized import build_model
@@ -19,7 +19,7 @@ embedder = None
 router = None
 
 class SentimentRequest(BaseModel):
-    text: str
+    text: str = Field(..., max_length=5000)
 
 class SentimentResponse(BaseModel):
     text: str
