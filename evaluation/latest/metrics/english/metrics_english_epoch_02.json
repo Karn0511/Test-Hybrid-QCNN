@@ -1,0 +1,25 @@
+{
+  "epoch": 2,
+  "loss": 1.0682582946924062,
+  "metrics": {
+    "accuracy": 0.4666666666666667,
+    "precision": 0.38671648522869384,
+    "recall": 0.4666666666666667,
+    "f1-score": 0.40340343622310837,
+    "roc_auc": 0.5045306886081065,
+    "per_class_recall": {
+      "negative": 0.7730496453900709,
+      "neutral": 0.0,
+      "positive": 0.2767857142857143
+    },
+    "prediction_distribution": {
+      "negative": 0.7633333333333333,
+      "neutral": 0.0,
+      "positive": 0.23666666666666666
+    },
+    "collapsed_classes": [
+      "neutral"
+    ],
+    "collapse_detected": true
+  }
+}

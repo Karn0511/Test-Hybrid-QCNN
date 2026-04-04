@@ -1,0 +1,5 @@
+# FastAPI & API Deployment (Optional - not needed for research)
+fastapi==0.115.0
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+sqlalchemy==2.0.29

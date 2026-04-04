@@ -1,0 +1,9 @@
+id: E4
+name: No projection
+use_qcnn: true
+layers: 4
+projection: false
+n_qubits: 8
+epochs: 5
+batch_size: 16
+learning_rate: 0.001

@@ -1,0 +1,71 @@
+name: 🚀 Infinite Beast Quantum Benchmark
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/bench_qcnn.yml'
+      - 'backend/**'
+      - 'scripts/global_comparison.py'
+      - 'scripts/download_datasets.py'
+      - 'requirements.txt'
+      - 'configs/**'
+      - 'evaluation/**'
+  workflow_dispatch:
+    inputs:
+      run_size:
+        description: 'Benchmark mode to run'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - fast
+          - full
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install datasets
+        
+    - name: 🛰️ Provision Research Datasets
+      run: |
+        mkdir -p datasets/raw datasets/processed
+        python scripts/download_datasets.py
+        
+    - name: ⚛️ Validate Quantum Environment
+      run: |
+        python -c "import pennylane; import torch; print('🚀 Quantum Engine: ACTIVE')"
+        
+    - name: 🧬 Run World-Ranking Benchmark
+      env:
+        PYTHONPATH: ${{ github.workspace }}
+        OMP_NUM_THREADS: 2 # GitHub Free Runners have 2 cores
+      run: |
+        # Keep push runs stable and fast; allow full runs via manual dispatch.
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          python scripts/global_comparison.py --size "${{ inputs.run_size }}"
+        else
+          python scripts/global_comparison.py --size fast
+        fi
+        
+    - name: 📊 Upload Amazing Results
+      uses: actions/upload-artifact@v4
+      with:
+        name: quantum-world-results
+        if-no-files-found: warn
+        path: |
+          evaluation/latest/global_benchmark/
+          evaluation/latest/plots/

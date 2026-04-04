@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Heavy Data & Scientific Artifacts (Do not push to Git)
+*.npy
+*.pth
+*.pt
+*.tmp
+datasets/
+evaluation/latest/pulses/
+runs/
+*.log
+*.db
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Local Reports
+evaluation/latest/SENTINEL_REPORT.json

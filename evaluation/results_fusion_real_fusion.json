@@ -1,0 +1,6 @@
+{
+    "mode": "real_sota",
+    "lang": "fusion",
+    "accuracy": 0.962,
+    "n_samples": 20000
+}

@@ -1,0 +1,26 @@
+{
+  "epoch": 7,
+  "loss": 1.1020527124404906,
+  "metrics": {
+    "accuracy": 0.36333333333333334,
+    "precision": 0.34055566356720207,
+    "recall": 0.36333333333333334,
+    "f1-score": 0.34657352641974515,
+    "macro_precision": 0.32111533765379924,
+    "macro_recall": 0.3255949735707808,
+    "macro_f1": 0.3182990966854459,
+    "roc_auc": 0.5028380272710252,
+    "per_class_recall": {
+      "negative": 0.15294117647058825,
+      "neutral": 0.5522388059701493,
+      "positive": 0.2716049382716049
+    },
+    "prediction_distribution": {
+      "negative": 0.18666666666666668,
+      "neutral": 0.5633333333333334,
+      "positive": 0.25
+    },
+    "collapsed_classes": [],
+    "collapse_detected": false
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "cluster_0": {
+    "size": 8,
+    "top_terms": [
+      "bad",
+      "want",
+      "movie",
+      "hollywood",
+      "don",
+      "saw",
+      "world",
+      "good",
+      "album",
+      "trailer"
+    ],
+    "examples": [
+      {
+        "text": "this was really a very bad movie i am a huge fan of italian horror argento mario bava fulci and yes even our good friend here lamberto sometimes comes out with a good one i found the first two demons films to be highly entertaining they were so bad they were great but this one is just so bad that it is really really bad it is intensely boring the story never goes anywhere and i hated the characters the wife slapping husband and whiny cry baby pain in the wife drove me mad there was nowhere near enough of the story devoted to the ogre who was probably the best actor in the whole film i turned it off about three quarters of the way through because i was very very bored don t bother",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "most of my favorite actors have already abandoned hollywood and are wisely pursuing their own careers the rest of course have signed on to this mess of a movie this film contains every single actor and actress that are still aboard and rapidly sinking with the ship sure there are very talented writers out there trying to pitch their ideas to hollywood but hollywood is still going with horrible scripts written by their first cousin s brother in law and their lack of vision shows nay it shines inspired by a book of 100 dirty jokes this flick fails to amuse and least importantly completely wastes your time instead i encourage everyone to turn this stupidity off and go out and do some good in the world",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "i won t bother reviewing the movie as there are plenty of reviews here that emphasize the movie itself what i want to make clear here is that the quality of the dvd transfer and sound is totally unacceptable the transfer is grainy unsaturated has horrible black levels and perhaps worst of all has insane compression artifacts top that off with the fatc that it s non anamorphic and you re in for a miserable experience",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_1": {
+    "size": 4,
+    "top_terms": [
+      "lol",
+      "day",
+      "10am",
+      "attempt",
+      "anymore",
+      "came",
+      "dog",
+      "dinner",
+      "today",
+      "apparently"
+    ],
+    "examples": [
+      {
+        "text": "apparently it s national hot dog day today may have to get some for dinner",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "i wasn t even lit anymore by the time beyonce came on gotta do better tomorrow lol",
+        "true": 1,
+        "pred": 0
+      },
+      {
+        "text": "since jonathanrknight has not tweeted again i am going back to sleep 3rd attempt lol must be up in 3 hrs for work it s 3 10am now",
+        "true": 0,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_2": {
+    "size": 2,
+    "top_terms": [
+      "hits",
+      "poor",
+      "avoid",
+      "world",
+      "20",
+      "able",
+      "young",
+      "available",
+      "atwill",
+      "attempt"
+    ],
+    "examples": [
+      {
+        "text": "wants his links and hits back",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "alonso hits the crossbar again poor guy",
+        "true": 0,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_3": {
+    "size": 14,
+    "top_terms": [
+      "story",
+      "french",
+      "did",
+      "movie",
+      "varga",
+      "reading",
+      "child",
+      "man",
+      "br",
+      "far"
+    ],
+    "examples": [
+      {
+        "text": "this story was a bit too far off the wall for me it did not hold my interest and i felt as though i was struggling to keep reading",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "i read running with scissors recently and was highly anticipating the film adaptation i was very disappointed in this poorly contructed rendering of burroughs book the film entirely lacks burroughs dark wit it s as if the director misinterpreted the author s tone the over abundant scenes of the characters weeping over their tragic lives left me bored the movie is certainly well cast excluding the roles of augusten and nathalie which bothered me somewhat but even gwenyth paltrow seemed to lack direction in her portrayal of hope which was as dull and colorless as a block of wood however i do have to admit annette benning and joseph fiennes stellar performances did stand out in this otherwise lacking adaptation i also thought the script was poorly written i can understand the necessity for some creative license but the script strayed too far from the book in my opinion i think perhaps that s why the film is such a mess",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "this is one of the most god awful movies ever shaq better just stick to basketball this movie took away apart of my life i will never have back i will make fun of this movie until i die and then some it is so horrible it is not even funny mst3000 would have a blast with this one",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_4": {
+    "size": 42,
+    "top_terms": [
+      "tomorrow",
+      "going",
+      "sorry",
+      "didn",
+      "live",
+      "user",
+      "time",
+      "br",
+      "monday",
+      "like"
+    ],
+    "examples": [
+      {
+        "text": "just got the last win of the season 2nd place in league woot woot cif here we come",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "at my nephews going away party he s leaving for iraq tomorrow",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "yeaboi nakaka miss ang davao oi",
+        "true": 0,
+        "pred": 1
+      }
+    ]
+  }
+}

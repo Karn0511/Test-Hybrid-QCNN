@@ -1,0 +1,7 @@
+{
+    "hybrid_accuracy": 0.33,
+    "baseline_accuracy": 0.48,
+    "quantum_gain_accuracy": -0.14999999999999997,
+    "hybrid_f1": 0,
+    "baseline_f1": 0
+}

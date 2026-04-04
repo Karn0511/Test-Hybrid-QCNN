@@ -1,0 +1,162 @@
+{
+  "cluster_0": {
+    "size": 8,
+    "top_terms": [
+      "user",
+      "bowie",
+      "messi",
+      "going",
+      "game",
+      "david",
+      "gucci",
+      "aslan",
+      "sant",
+      "ambrogio"
+    ],
+    "examples": [
+      {
+        "text": "user january 8th then we can have a cool shared birthday with david bowie",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "user underwood s childhood fight with david bowie jones may have caused bowie s distinctive eye discolouration",
+        "true": 1,
+        "pred": 0
+      },
+      {
+        "text": "i told my dad i m going to see messi on tuesday and he called me a bastard cuz he can t go",
+        "true": 2,
+        "pred": 0
+      }
+    ]
+  },
+  "cluster_1": {
+    "size": 17,
+    "top_terms": [
+      "just",
+      "good",
+      "bad",
+      "movie",
+      "acting",
+      "quality",
+      "thought",
+      "lost",
+      "playing",
+      "load"
+    ],
+    "examples": [
+      {
+        "text": "may contain spoilers br br i bent over backwards to be fair to this film i knew it starred madonna i knew it lasted a whole week in theaters i knew it got a lot of bad reviews i wasn t expecting a deep and thoughtful examination of class culture and sexuality like we got in the italian original the benefit of the doubt lasted a whole ten minutes br br madonna plays a rich pretentious nit witted gorgon who goes on vacation with her henpecked husband and flippant friends the brunette woman is as bad as madonna exhibiting some really dumb facial expressions adriano giannini plays the ship s first mate who the madonna character delights in humiliating and treating like dirt in every scene they have together why is she such a bitch to him simply because the plot requires it so that later when the two of them get marooned on a deserted mediterranean island the tables will be turned and he will teach her a lesson just as inexplicable is how they fall in love despite having nothing in common and having abused each other for two thirds of the movie br br swept away is a silly simplistic superficial movie from beginning to end madonna gives a typically wooden performance there are many dumb scenes madonna singing and dancing atrociously at the demand of giannini a fantasy scene with madonna and a lot of scenes where he slaps her and kicks her in the butt guy ritchie does his stylish editing which is laughable here the film contains some of the worst dialog i ve heard in a major movie in several years the ending is sappy and implausible it s basically the blue lagoon meets overboard minus the nudity of the former and the sense of humor of the latter br br maybe madonna s ego is so big that she insists on continuing to prove herself as a competent actress please give it up madge for our sake as well as yours this isn t her worst movie though that distinction still belongs to shanghai surprise she hasn t made anything worse than that yet",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "terrible just terrible probably the worst film i have ever seen and i did see some pretty bad pictures throughout the years the sound sucks so does the quality of the picture the direction the acting etc etc the only good shoots meaning funny because they re so bad are the special effects overall there are about 5 minutes worth of laughs the rest of the flick gives you brain damage",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "i have game cds on my desk but just dont feel like playing them the games coming nowdays seem to have lost the fun factor",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  },
+  "cluster_2": {
+    "size": 27,
+    "top_terms": [
+      "got",
+      "tonight",
+      "yes",
+      "david",
+      "night",
+      "blair",
+      "tony",
+      "make",
+      "monday",
+      "saturday"
+    ],
+    "examples": [
+      {
+        "text": "like another reviewer i was pleased with these for a couple of months they stayed in place while running and were not affected by sweat but they recently snapped at a hinge while simply taking them off i wasn t rough with them or anything since they were already broken i played with the other hinges and realized that they all are very fragile and will break with the slightest bending i m replacing with another brand if you own these i would handle them like they were made of glass",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "how can tony blair get invited at remembrance sunday and there was no invite for the merchant navy by david cameron disgusting",
+        "true": 0,
+        "pred": 1
+      },
+      {
+        "text": "come on united our boy ryan not playing though i hope he s playing next sat when i go",
+        "true": 0,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_3": {
+    "size": 6,
+    "top_terms": [
+      "day",
+      "national",
+      "today",
+      "apparently",
+      "finals",
+      "happy",
+      "taking",
+      "took",
+      "international",
+      "excited"
+    ],
+    "examples": [
+      {
+        "text": "it s singapore s independence day today happy national day can t wait for the parade this evening",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "hey did you know national ice cream day is sunday july 19th make sure you take a moment to enjoy a scoop of your favorite flavor yum",
+        "true": 2,
+        "pred": 1
+      },
+      {
+        "text": "apparently artpop is said to be released on march 8th which turns out to be international women s day get ready",
+        "true": 2,
+        "pred": 1
+      }
+    ]
+  },
+  "cluster_4": {
+    "size": 10,
+    "top_terms": [
+      "book",
+      "good",
+      "read",
+      "ve",
+      "reason",
+      "like",
+      "buy",
+      "children",
+      "went",
+      "great"
+    ],
+    "examples": [
+      {
+        "text": "i ve always been good at figuring out who the culprit is but i was more than surprised by this book s another great write by child",
+        "true": 2,
+        "pred": 0
+      },
+      {
+        "text": "given all the rave reviews i feel the need to register a dissenting opinion i found this book mean spirited misogynist and tiresome not funny searingly dull in parts this is the only case i can think of in which i read a book then saw the movie based on it and liked the movie better the movie is cute and funny actually i m surprised that i ever went to see the movie given that i loathed the book so deeply anyway if you don t like this book you don t need to feel like a freak you re not alone",
+        "true": 0,
+        "pred": 2
+      },
+      {
+        "text": "this is nothing new from gail howard or at all these wheeling systems can be worked out mathematically without paying for this book there are also lots of websites that offer number generators and wheeling system explanations for free if you want it all spelled out for you then buy this book but if you are willing to do a little mathematical work check out lottery information website like",
+        "true": 0,
+        "pred": 2
+      }
+    ]
+  }
+}

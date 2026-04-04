@@ -1,0 +1,18 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies required for scientific computing and PennyLane C++ backend
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential gcc libffi-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+# Run the core validation
+CMD ["python", "-c", "import pennylane; import torch; print('🚀 Quantum Sentiment Engine Environment: ACTIVE'); print(f'PennyLane Version: {pennylane.__version__}'); print(f'GPU Available: {torch.cuda.is_available()}')"]

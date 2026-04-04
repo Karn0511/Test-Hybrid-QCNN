@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "2026-04-03T14:05:39.088131+00:00",
+  "contract_version": "1.0",
+  "language": "hindi",
+  "mode": "active",
+  "device": "cpu",
+  "target_accuracy": 0.92,
+  "requested_epochs": 20,
+  "completed_epochs": 7,
+  "stop_reason": "time_budget_reached",
+  "best_val_f1": 0.34657352641974515,
+  "best_selection_score": 0.3182990966854459,
+  "best_epoch": 7,
+  "final_train_loss": 1.1228541458354278,
+  "final_train_accuracy": 0.37703703703703706,
+  "final_val_loss": 1.1020527124404906,
+  "final_val_metrics": {
+    "accuracy": 0.36333333333333334,
+    "precision": 0.34055566356720207,
+    "recall": 0.36333333333333334,
+    "f1-score": 0.34657352641974515,
+    "macro_precision": 0.32111533765379924,
+    "macro_recall": 0.3255949735707808,
+    "macro_f1": 0.3182990966854459,
+    "roc_auc": 0.5028380272710252,
+    "per_class_recall": {
+      "negative": 0.15294117647058825,
+      "neutral": 0.5522388059701493,
+      "positive": 0.2716049382716049
+    },
+    "prediction_distribution": {
+      "negative": 0.18666666666666668,
+      "neutral": 0.5633333333333334,
+      "positive": 0.25
+    },
+    "collapsed_classes": [],
+    "collapse_detected": false
+  },
+  "collapse_status": {
+    "detected": false,
+    "collapsed_classes": [],
+    "prediction_distribution": {
+      "negative": 0.18666666666666668,
+      "neutral": 0.5633333333333334,
+      "positive": 0.25
+    }
+  },
+  "tier1_enabled": false,
+  "tier2_enabled": false,
+  "tier1_strength": 0.15,
+  "tier2_coef": 0.03,
+  "tier2_cost_penalty": 0.01,
+  "elapsed_minutes": 36.08407988945643,
+  "checkpoint_paths": [
+    "checkpoints/hindi/qcnn_epoch_1.pt",
+    "checkpoints/hindi/qcnn_epoch_2.pt",
+    "checkpoints/hindi/qcnn_epoch_3.pt",
+    "checkpoints/hindi/qcnn_epoch_4.pt",
+    "checkpoints/hindi/qcnn_epoch_5.pt",
+    "checkpoints/hindi/qcnn_epoch_6.pt",
+    "checkpoints/hindi/qcnn_epoch_7.pt"
+  ],
+  "best_checkpoint_path": "checkpoints/hindi/qcnn_best_hindi.pt"
+}

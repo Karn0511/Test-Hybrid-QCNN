@@ -1,0 +1,11 @@
+# Hybrid QCNN Final Evaluation Results
+
+Generated natively from the 10-Stage Evaluation Mode matrix.
+
+## 1. Zero-Shot Multilingual Transfer
+![Multilingual Transfer Benchmark](plots/multilingual_transfer_benchmark.png)
+
+## 2. Quantum Advantage Analysis
+![Quantum Advantage Comparison](plots/quantum_advantage_metrics.png)
+
+> **Notice**: Values reflect ultra-fast randomly-initialized evaluation configurations, with Classical at **48.00%** and Quantum at **33.00%**.

@@ -1,0 +1,1075 @@
+{
+    "timestamp": "2026-03-29T17:16:03.265192",
+    "total_experiments": 10,
+    "results": {
+        "STAGE_1_english": {
+            "config": {
+                "id": "STAGE_1_english",
+                "language": "english",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    0.9920634920634921,
+                    0.9746588693957114,
+                    1.0351966873706004
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.33,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.17852631578947367,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.33,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.18597946783993297,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.4717513368983957,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.09112372338771821,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.68834698785114,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "english": {
+                        "accuracy": 0.33,
+                        "f1_macro": 0.183392695020602,
+                        "confusion_matrix": [
+                            [
+                                32,
+                                0,
+                                2
+                            ],
+                            [
+                                32,
+                                0,
+                                2
+                            ],
+                            [
+                                31,
+                                0,
+                                1
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 15.89691972732544,
+            "history": [
+                1.3984977006912231
+            ],
+            "stage": "STAGE 1: INDIVIDUAL"
+        },
+        "STAGE_1_hindi": {
+            "config": {
+                "id": "STAGE_1_hindi",
+                "language": "hindi",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    1.0351966873706004,
+                    0.9259259259259259,
+                    1.0482180293501049
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.31,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.10122448979591837,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.31,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.15261538461538462,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.49072610294117647,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.14019120752811434,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.6929023084211573,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "hindi": {
+                        "accuracy": 0.31,
+                        "f1_macro": 0.158974358974359,
+                        "confusion_matrix": [
+                            [
+                                31,
+                                0,
+                                1
+                            ],
+                            [
+                                35,
+                                0,
+                                1
+                            ],
+                            [
+                                32,
+                                0,
+                                0
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 12.094749689102173,
+            "history": [
+                1.3976776599884033
+            ],
+            "stage": "STAGE 1: INDIVIDUAL"
+        },
+        "STAGE_1_bhojpuri": {
+            "config": {
+                "id": "STAGE_1_bhojpuri",
+                "language": "bhojpuri",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    0.9523809523809523,
+                    1.02880658436214,
+                    1.0224948875255624
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.35,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.1225,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.35,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.1814814814814815,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.5011146079556966,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.07706542283296587,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.6791866759341896,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "bhojpuri": {
+                        "accuracy": 0.35,
+                        "f1_macro": 0.1728395061728395,
+                        "confusion_matrix": [
+                            [
+                                35,
+                                0,
+                                0
+                            ],
+                            [
+                                33,
+                                0,
+                                0
+                            ],
+                            [
+                                32,
+                                0,
+                                0
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 11.162515878677368,
+            "history": [
+                1.4223583340644836
+            ],
+            "stage": "STAGE 1: INDIVIDUAL"
+        },
+        "STAGE_1_maithili": {
+            "config": {
+                "id": "STAGE_1_maithili",
+                "language": "maithili",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    0.9718172983479106,
+                    0.9950248756218906,
+                    1.0351966873706004
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.35,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.18926315789473683,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.35,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.2003742203742204,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.4941451678260283,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.07167993783950809,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.67946204833817,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "maithili": {
+                        "accuracy": 0.35,
+                        "f1_macro": 0.19237699237699238,
+                        "confusion_matrix": [
+                            [
+                                34,
+                                0,
+                                1
+                            ],
+                            [
+                                30,
+                                0,
+                                3
+                            ],
+                            [
+                                31,
+                                0,
+                                1
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 11.642017841339111,
+            "history": [
+                1.417980134487152
+            ],
+            "stage": "STAGE 1: INDIVIDUAL"
+        },
+        "STAGE_2_indic_only": {
+            "config": {
+                "id": "STAGE_2_indic_only",
+                "language": "indic_only",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    0.8888888888888888,
+                    1.0351966873706004,
+                    1.1001100110011002
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.4,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.44734693877551024,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.4,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.24985294117647058,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.4110460829493088,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.12304934322834014,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.6807707511464612,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "hindi": {
+                        "accuracy": 0.38,
+                        "f1_macro": 0.18357487922705315,
+                        "confusion_matrix": [
+                            [
+                                19,
+                                0,
+                                0
+                            ],
+                            [
+                                17,
+                                0,
+                                0
+                            ],
+                            [
+                                14,
+                                0,
+                                0
+                            ]
+                        ]
+                    },
+                    "bhojpuri": {
+                        "accuracy": 0.41935483870967744,
+                        "f1_macro": 0.24175824175824176,
+                        "confusion_matrix": [
+                            [
+                                12,
+                                0,
+                                0
+                            ],
+                            [
+                                7,
+                                0,
+                                0
+                            ],
+                            [
+                                11,
+                                0,
+                                1
+                            ]
+                        ]
+                    },
+                    "maithili": {
+                        "accuracy": 0.42105263157894735,
+                        "f1_macro": 0.32,
+                        "confusion_matrix": [
+                            [
+                                7,
+                                0,
+                                0
+                            ],
+                            [
+                                8,
+                                0,
+                                0
+                            ],
+                            [
+                                3,
+                                0,
+                                1
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 15.441951751708984,
+            "history": [
+                1.3372085988521576
+            ],
+            "stage": "STAGE 2: GROUPED"
+        },
+        "STAGE_2_english_only": {
+            "config": {
+                "id": "STAGE_2_english_only",
+                "language": "english_only",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    0.9920634920634921,
+                    0.9746588693957114,
+                    1.0351966873706004
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.33,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.17852631578947367,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.33,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.18597946783993297,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.4717513368983957,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.09112372338771821,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.68834698785114,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "english": {
+                        "accuracy": 0.33,
+                        "f1_macro": 0.183392695020602,
+                        "confusion_matrix": [
+                            [
+                                32,
+                                0,
+                                2
+                            ],
+                            [
+                                32,
+                                0,
+                                2
+                            ],
+                            [
+                                31,
+                                0,
+                                1
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 4.504896640777588,
+            "history": [
+                1.3984977006912231
+            ],
+            "stage": "STAGE 2: GROUPED"
+        },
+        "STAGE_3_multilingual": {
+            "config": {
+                "id": "STAGE_3_multilingual",
+                "language": "multilingual",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 2000,
+                "class_weights": [
+                    1.0465724751439036,
+                    0.9442870632672332,
+                    1.0147133434804667
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.355,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.3615,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.355,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.2769158391855693,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.5084963203627705,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.03447510540485383,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.6749173791763087,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "hindi": {
+                        "accuracy": 0.32098765432098764,
+                        "f1_macro": 0.2779428954831134,
+                        "confusion_matrix": [
+                            [
+                                16,
+                                1,
+                                5
+                            ],
+                            [
+                                25,
+                                1,
+                                5
+                            ],
+                            [
+                                19,
+                                0,
+                                9
+                            ]
+                        ]
+                    },
+                    "multilingual": {
+                        "accuracy": 0.5,
+                        "f1_macro": 0.5,
+                        "confusion_matrix": [
+                            [
+                                1,
+                                0,
+                                0
+                            ],
+                            [
+                                2,
+                                0,
+                                0
+                            ],
+                            [
+                                0,
+                                0,
+                                1
+                            ]
+                        ]
+                    },
+                    "maithili": {
+                        "accuracy": 0.4,
+                        "f1_macro": 0.28708133971291866,
+                        "confusion_matrix": [
+                            [
+                                9,
+                                0,
+                                2
+                            ],
+                            [
+                                5,
+                                0,
+                                3
+                            ],
+                            [
+                                8,
+                                0,
+                                3
+                            ]
+                        ]
+                    },
+                    "bhojpuri": {
+                        "accuracy": 0.38636363636363635,
+                        "f1_macro": 0.29281277728482696,
+                        "confusion_matrix": [
+                            [
+                                13,
+                                0,
+                                4
+                            ],
+                            [
+                                12,
+                                0,
+                                4
+                            ],
+                            [
+                                7,
+                                0,
+                                4
+                            ]
+                        ]
+                    },
+                    "english": {
+                        "accuracy": 0.34146341463414637,
+                        "f1_macro": 0.2661498708010336,
+                        "confusion_matrix": [
+                            [
+                                10,
+                                1,
+                                2
+                            ],
+                            [
+                                10,
+                                0,
+                                4
+                            ],
+                            [
+                                10,
+                                0,
+                                4
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 27.24043893814087,
+            "history": [
+                1.3298648595809937
+            ],
+            "stage": "STAGE 3: FULL MULTILINGUAL"
+        },
+        "STAGE_4_zero_shot_transfer": {
+            "config": {
+                "id": "STAGE_4_zero_shot_transfer",
+                "language": "zero_shot_transfer",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    1.0482180293501049,
+                    0.949667616334283,
+                    1.0070493454179255
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.3179190751445087,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.10107253834073975,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.3179190751445087,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.15338200993814016,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.4577810236288612,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.1391527119571763,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.7082353322638624,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "bhojpuri": {
+                        "accuracy": 0.3170731707317073,
+                        "f1_macro": 0.16049382716049382,
+                        "confusion_matrix": [
+                            [
+                                65,
+                                0,
+                                0
+                            ],
+                            [
+                                71,
+                                0,
+                                0
+                            ],
+                            [
+                                69,
+                                0,
+                                0
+                            ]
+                        ]
+                    },
+                    "maithili": {
+                        "accuracy": 0.3191489361702128,
+                        "f1_macro": 0.16129032258064516,
+                        "confusion_matrix": [
+                            [
+                                45,
+                                0,
+                                0
+                            ],
+                            [
+                                57,
+                                0,
+                                0
+                            ],
+                            [
+                                39,
+                                0,
+                                0
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": [
+                    "bhojpuri",
+                    "maithili"
+                ]
+            },
+            "training_time": 19.340105533599854,
+            "history": [
+                1.396528720855713
+            ],
+            "stage": "STAGE 4: GENERALIZATION"
+        },
+        "STAGE_5_baseline_transformer": {
+            "config": {
+                "id": "STAGE_5_baseline_transformer",
+                "language": "baseline_transformer",
+                "use_qcnn": false,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    1.0482180293501049,
+                    0.949667616334283,
+                    1.0070493454179255
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.48,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.48685441370223975,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.48,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.4753903743315508,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.6838128250151957,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.21372027693371384,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.6536394072983724,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "hindi": {
+                        "accuracy": 0.4358974358974359,
+                        "f1_macro": 0.4376964956675102,
+                        "confusion_matrix": [
+                            [
+                                8,
+                                5,
+                                1
+                            ],
+                            [
+                                4,
+                                4,
+                                8
+                            ],
+                            [
+                                1,
+                                3,
+                                5
+                            ]
+                        ]
+                    },
+                    "multilingual": {
+                        "accuracy": 0.5,
+                        "f1_macro": 0.5,
+                        "confusion_matrix": [
+                            [
+                                1,
+                                2
+                            ],
+                            [
+                                0,
+                                1
+                            ]
+                        ]
+                    },
+                    "maithili": {
+                        "accuracy": 0.4166666666666667,
+                        "f1_macro": 0.41904761904761906,
+                        "confusion_matrix": [
+                            [
+                                1,
+                                3,
+                                1
+                            ],
+                            [
+                                1,
+                                2,
+                                1
+                            ],
+                            [
+                                0,
+                                1,
+                                2
+                            ]
+                        ]
+                    },
+                    "bhojpuri": {
+                        "accuracy": 0.5,
+                        "f1_macro": 0.4622414622414623,
+                        "confusion_matrix": [
+                            [
+                                1,
+                                1,
+                                2
+                            ],
+                            [
+                                0,
+                                3,
+                                2
+                            ],
+                            [
+                                2,
+                                2,
+                                5
+                            ]
+                        ]
+                    },
+                    "english": {
+                        "accuracy": 0.5555555555555556,
+                        "f1_macro": 0.5339682539682539,
+                        "confusion_matrix": [
+                            [
+                                3,
+                                3,
+                                3
+                            ],
+                            [
+                                0,
+                                4,
+                                3
+                            ],
+                            [
+                                2,
+                                1,
+                                8
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 9.178313970565796,
+            "history": [],
+            "stage": "STAGE 5: QUANTUM GAIN"
+        },
+        "STAGE_5_hybrid_qcnn": {
+            "config": {
+                "id": "STAGE_5_hybrid_qcnn",
+                "language": "hybrid_qcnn",
+                "use_qcnn": true,
+                "qcnn_depth": 2,
+                "projection": true,
+                "epochs": 1,
+                "batch_size": 256,
+                "max_rows": 1000,
+                "class_weights": [
+                    1.0482180293501049,
+                    0.949667616334283,
+                    1.0070493454179255
+                ]
+            },
+            "metrics_summary": {
+                "accuracy": {
+                    "mean": 0.33,
+                    "std": 0.0
+                },
+                "precision": {
+                    "mean": 0.43343434343434345,
+                    "std": 0.0
+                },
+                "recall": {
+                    "mean": 0.33,
+                    "std": 0.0
+                },
+                "f1-score": {
+                    "mean": 0.17574764256847775,
+                    "std": 0.0
+                },
+                "roc_auc": {
+                    "mean": 0.48946363206591476,
+                    "std": 0.0
+                },
+                "ece": {
+                    "mean": 0.09715903252363207,
+                    "std": 0.0
+                },
+                "brier_score": {
+                    "mean": 0.6899501753303516,
+                    "std": 0.0
+                },
+                "per_language_breakdown": {
+                    "hindi": {
+                        "accuracy": 0.358974358974359,
+                        "f1_macro": 0.1761006289308176,
+                        "confusion_matrix": [
+                            [
+                                14,
+                                0,
+                                0
+                            ],
+                            [
+                                16,
+                                0,
+                                0
+                            ],
+                            [
+                                9,
+                                0,
+                                0
+                            ]
+                        ]
+                    },
+                    "multilingual": {
+                        "accuracy": 0.0,
+                        "f1_macro": 0.0,
+                        "confusion_matrix": [
+                            [
+                                0,
+                                0,
+                                0
+                            ],
+                            [
+                                3,
+                                0,
+                                0
+                            ],
+                            [
+                                1,
+                                0,
+                                0
+                            ]
+                        ]
+                    },
+                    "maithili": {
+                        "accuracy": 0.4166666666666667,
+                        "f1_macro": 0.19607843137254902,
+                        "confusion_matrix": [
+                            [
+                                5,
+                                0,
+                                0
+                            ],
+                            [
+                                4,
+                                0,
+                                0
+                            ],
+                            [
+                                3,
+                                0,
+                                0
+                            ]
+                        ]
+                    },
+                    "bhojpuri": {
+                        "accuracy": 0.2222222222222222,
+                        "f1_macro": 0.12121212121212122,
+                        "confusion_matrix": [
+                            [
+                                4,
+                                0,
+                                0
+                            ],
+                            [
+                                5,
+                                0,
+                                0
+                            ],
+                            [
+                                9,
+                                0,
+                                0
+                            ]
+                        ]
+                    },
+                    "english": {
+                        "accuracy": 0.37037037037037035,
+                        "f1_macro": 0.22698412698412695,
+                        "confusion_matrix": [
+                            [
+                                9,
+                                0,
+                                0
+                            ],
+                            [
+                                7,
+                                0,
+                                0
+                            ],
+                            [
+                                10,
+                                0,
+                                1
+                            ]
+                        ]
+                    }
+                },
+                "holdout_langs": null
+            },
+            "training_time": 12.528096914291382,
+            "history": [
+                1.3994753956794739
+            ],
+            "stage": "STAGE 5: QUANTUM GAIN"
+        }
+    }
+}

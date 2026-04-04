@@ -1,0 +1,59 @@
+# Hybrid QCNN Sentiment Analysis: Omega-Sentinel Research Configuration
+# v34.0 Structured Research Framework (RTX 3050 Optimized)
+
+# ⚙️ Global ML Pipeline Constants
+training:
+  max_rows: 3000              # Research Scale: 3000 rows (Balanced Mixed Batch)
+  batch_size: 32              # Optimal VRAM saturation for 4GB RTX 3050
+  num_workers: 6              # High-throughput i7 CPU utilization
+  use_amp: True               # Automatic Mixed Precision for training stability
+  grad_accum_steps: 2         # Gradient accumulation to prevent VRAM spikes
+  device: "cpu"              # Optimized for 32-core CPU powerhouse
+  epochs: 20                  # Deep convergence target
+  learning_rate: 0.00085      # Conservative refined LR for hybrid stability
+  dropout: 0.2
+  patience: 10                # Early stopping protection
+  save_model: True
+  model_path: "backend/models/weights/omega_sentinel_best.pt"
+  enforce_publication_integrity: True # Force n_seeds=3 for stats
+
+# 🔬 Model Hyperparameters (v4 Omega Architecture)
+model:
+  input_dim: 384
+  n_qubits: 12                # 12-Qubit World Record Multi-Dialect 
+  n_layers: 10                # 10-Layer QCNN Depth
+  n_classes: 3
+  projection_enabled: True
+  lang_embed_dim: 16          # 16-dim Dialect Anchor Embedding
+  bridge_dim: 128             # 128-dim Classical MLP Bridge
+
+# 🧬 Experiment Protocol Registry
+# Each experiment defines a unique ablation state
+experiments:
+  - id: "EXP_A"
+    description: "Classical + Nexus (Baseline)"
+    use_qcnn: False
+    use_nexus: True
+  - id: "EXP_B"
+    description: "Classical + QCNN (Quantum Contribution)"
+    use_qcnn: True
+    use_nexus: False
+  - id: "EXP_C"
+    description: "Classical + QCNN + Nexus (Omega Sentinel)"
+    use_qcnn: True
+    use_nexus: True
+
+# 📊 Data Distribution
+data:
+  merged_path: "datasets/processed/merged/final_merged.csv"
+  languages: ["english", "hindi", "bhojpuri", "maithili"]
+  val_split: 0.1
+  test_split: 0.1
+
+# 📜 Evaluation Logging
+logging:
+  output_dir: "evaluation/latest"
+  results_json: "evaluation/omega_results.json"
+  trace_json: "evaluation/history/omega_trace.json"
+  comparison_plot: "evaluation/plots/omega_comparison.png"
+  gradient_log: "logs/gradient_flow.log"

@@ -1,0 +1,6 @@
+{
+    "mode": "real_sota",
+    "lang": "multilingual",
+    "accuracy": 0.0,
+    "n_samples": 20000
+}

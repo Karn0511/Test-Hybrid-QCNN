@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  quantum_engine:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: quantum_ai_engine
+    restart: always
+    environment:
+      - MODE=research
+      - PYTHONPATH=/app
+    volumes:
+      - ./evaluation/metrics:/app/evaluation/metrics
+      - ./models:/app/models

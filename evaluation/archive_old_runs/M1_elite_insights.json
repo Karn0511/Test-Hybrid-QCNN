@@ -1,0 +1,47 @@
+{
+  "neutral": {
+    "neutral_accuracy": 0.8314606741573034,
+    "major_confusion": "negative",
+    "confusion_rate": 0.1198501872659176
+  },
+  "errors": {
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "top_terms": [
+          "just",
+          "like",
+          "time",
+          "book",
+          "tomorrow"
+        ],
+        "sample_count": 160,
+        "representative_sample": "i saw the video for galang on bpm and was laughing out loud this skinny little sri lankan girl was spitting out london ghetto rap while dancing crazily in front of a cartoon backdrop but the next few days something about the beat stayed in my head i had to hear it again i did and i taped it and the more i listened to it the more i realized i wanted to hear more i found it at a store and bought it on the bus ride home i didn t much care for it but like the galang video it stayed in my head everytime i listened to it i liked it a little bit more it s like watching pulp fiction each time you see it something appears to you that you missed before that makes the whole thing make more and more sense by now it is one of my favourite cd s and i don t even listen to this genre if it even fits into any genre regularly it isn t for everyone but if you have a good subwoofer and an open mind for something unique give it a shot"
+      },
+      {
+        "cluster_id": 1,
+        "top_terms": [
+          "user",
+          "2nd",
+          "day",
+          "watch",
+          "world"
+        ],
+        "sample_count": 19,
+        "representative_sample": "user well i figured out that you have to get on the computer to make a league the boys will have to help us tomorrow hahaha"
+      },
+      {
+        "cluster_id": 2,
+        "top_terms": [
+          "going",
+          "frank",
+          "ocean",
+          "saturday",
+          "tomorrow"
+        ],
+        "sample_count": 16,
+        "representative_sample": "it played okay definitely not going to stand up to the new stereo systems the recording part of it didn t work at all we are sending it back a big disappointment"
+      }
+    ]
+  }
+}

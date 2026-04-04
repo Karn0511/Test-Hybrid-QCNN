@@ -1,0 +1,23 @@
+{
+    "run_id": "sentinel_0404_1825",
+    "start_time": "2026-04-04T18:25:41.103417",
+    "status": "GLOBAL_MATRIX_ACTIVE",
+    "languages": [
+        "hindi",
+        "english",
+        "bhojpuri",
+        "maithili"
+    ],
+    "models": [
+        "qcnn",
+        "qcnn_nexus"
+    ],
+    "config": {
+        "epochs": 20,
+        "lr": 0.001,
+        "use_qcnn": true,
+        "n_qubits": 12,
+        "n_layers": 4,
+        "max_samples": 10000
+    }
+}
