@@ -1,16 +1,12 @@
-# Hybrid QCNN Sentiment Analysis: Omega-Sentinel Research Configuration
-# v36.0 Structured Research Framework (32-Core Xeon Optimized)
-
-# ⚙️ Global ML Pipeline Constants
 training:
-  max_rows: 3000              # Research Scale: 3000 rows (Balanced Mixed Batch)
+  max_rows: 10000             # SOTA Research Scale: 10,000 rows (Beast-Dataset)
   batch_size: 32              # Per-Expert worker batch size
   eval_batch_size: 512        # Xeon-Turbo evaluation throughput (32-core saturation)
   num_workers: 12             # Overdrive: Launch 12 concurrent kernels
   use_amp: True               # Automatic Mixed Precision for training stability
   grad_accum_steps: 8         # Aggressive accumulation for stable gradients
   device: "cpu"               # Xeon-Turbo Mode: C++ PennyLane Lightning
-  epochs: 3                   # Fast-convergence target for multi-seed 
+  epochs: 20                  # Deep convergence target
   learning_rate: 0.00085      
   dropout: 0.2
   patience: 10
@@ -18,11 +14,11 @@ training:
   model_path: "backend/models/weights/omega_sentinel_best.pt"
   enforce_publication_integrity: True 
 
-# 🔬 Model Hyperparameters (v36.0 Omega Architecture)
+# 🔬 Model Hyperparameters (v37.0 - 6-Layer Omega Architecture)
 model:
   input_dim: 384
   n_qubits: 8                 # SOTA 8-Qubit expressibility (Xeon-Optimized)
-  n_layers: 6                 # 6-Layer QCNN Depth
+  n_layers: 6                 # Deep 6-Layer QCNN Depth (High Feature Grain)
   n_classes: 3
   projection_enabled: True
   lang_embed_dim: 16          # 16-dim Dialect Anchor Embedding
